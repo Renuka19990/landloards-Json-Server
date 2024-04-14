@@ -77,92 +77,2729 @@
         "password": "chandan"
       }
     ],
-    "properties": [
-      {
-        "id": "1",
-        "name": "Apartment 1",
-        "address": "123 Main St",
-        "rent": 1200,
-        "occupied": true,
-        "tenant_id": 1,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWwZGWnpdqGGBcZm1jkl1v4KboQYjjNhb9Ag&s"
-      },
-      {
-        "id": "2",
-        "name": "Apartment 2",
-        "address": "456 Elm St",
-        "rent": 1100,
-        "occupied": false,
-        "tenant_id": null,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr1cNVGbNQrKvcv4AECzUtGCorFeutlOQDeA&s"
-      },
-      {
-        "id": "3",
-        "name": "Apartment 3",
-        "address": "456 Elm St",
-        "rent": 1100,
-        "occupied": false,
-        "tenant_id": 3,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr1cNVGbNQrKvcv4AECzUtGCorFeutlOQDeA&s"
-      },
-      {
-        "id": "4",
-        "name": "Apartment 4",
-        "address": "456 Elm St",
-        "rent": 1100,
-        "occupied": false,
-        "tenant_id": null,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr1cNVGbNQrKvcv4AECzUtGCorFeutlOQDeA&s"
-      }
-    ],
-    "tenants": [
-      {
-        "id": "1",
+    "properties":
+    [
+        {
+        "id": 1,
+        "title": "SarNest - Designed with Nature",
+        "location": "Entire home in Honningsvåg, Norway",
+        "images": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-850769713572940614/original/2b3d050d-c3eb-4f1d-b42f-e5603f1fef8a.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-850769713572940614/original/640d7b52-c87c-4b17-a2ce-ac22cefd25c3.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-850769713572940614/original/41cdf7df-186d-4a53-be61-9d398295cec2.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/f75a6ceb-b36e-4c37-93b1-8e87f1843f19.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/e0a11daa-fc12-4262-ace9-bd925b3bc203.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/c05cd091-be65-4ee1-b75d-06e42f63130b.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-850769713572940614/original/44d344d3-e0d7-423e-8067-5865ae5e7c6d.png?im_w=720",
+        "https://a0.muscache.com/im/pictures/14a1c448-76cb-4f11-8ae2-e3d167a16310.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/1514828b-b1ee-4b47-93e9-e3a77025a992.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-850769713572940614/original/b18991bd-465f-49c8-bf20-97c45ea4c279.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/1b9fa206-3b6f-4af1-b4e5-c6b9df48bdb2.jpg?im_w=720"
+        ],
+        "rating": "4.8",
+        "nearBy": "Connaught Place, India Gate",
+        "Rent": "6000",
+        "map_location": {
+        "lat": "28.6139",
+        "long": "77.2090"
+        },
+        "description": "Cozy Haven Guesthouse offers a warm and welcoming environment for travelers visiting Delhi. Situated in the heart of the city, our guesthouse provides comfortable accommodation and easy access to major attractions.",
+        "reviews": [
+        {
+        "image": "reviewer1.jpg",
+        "city": "Mumbai",
+        "name": "John Doe",
+        "review_msg": "Excellent place to stay! The rooms are clean and well-maintained. The staff is friendly and helpful. Would definitely come back again.",
+        "rating": "5"
+        },
+        {
+        "image": "reviewer2.jpg",
+        "city": "Bangalore",
+        "name": "Jane Smith",
+        "review_msg": "Had a wonderful experience here. The location is perfect, and the amenities provided are great. Highly recommend!",
+        "rating": "4.5"
+        }
+        ],
+        "amenities": [
+        "Free Breakfast",
+        "Wifi",
+        "24/7 Room Service"
+        ]
+        },
+        {
+        "id": 2,
+        "title": "Urban Retreat Hostel",
+        "location": "Delhi",
+        "images": [
+        "https://plus.unsplash.com/premium_photo-1683917068755-c2890e4824e1?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWlyYm5ifGVufDB8fDB8fHww",
+        "https://images.unsplash.com/photo-1591825729269-caeb344f6df2?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YWlyYm5ifGVufDB8fDB8fHww",
+        "https://images.unsplash.com/photo-1622266234556-faab3e09f67b?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YWlyYm5ifGVufDB8fDB8fHww",
+        "https://plus.unsplash.com/premium_photo-1687710306880-95c72d9a19c5?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8YWlyYm5ifGVufDB8fDB8fHww"
+        ],
+        "rating": "4.5",
+        "nearBy": "Karol Bagh, Red Fort",
+        "Rent": "3500",
+        "map_location": {
+        "lat": "28.7041",
+        "long": "77.1025"
+        },
+        "description": "Urban Retreat Hostel offers budget-friendly accommodation for backpackers and solo travelers in Delhi. Our hostel provides a comfortable stay with easy access to public transportation and popular landmarks.",
+        "reviews": [
+        {
+        "image": "reviewer3.jpg",
+        "city": "Chennai",
         "name": "Alice Johnson",
-        "email": "alice@example.com",
-        "phone": "123-456-7890"
-      },
-      {
-        "id": "2",
-        "name": "Bob Smith",
-        "email": "bob@example.com",
-        "phone": "987-654-3210"
-      }
-    ],
-    "expenses": [
-      {
-        "id": "1",
-        "property_id": 1,
-        "description": "Maintenance",
-        "amount": 100,
-        "date": "2024-04-10"
-      },
-      {
-        "id": "2",
-        "property_id": 1,
-        "description": "Utilities",
-        "amount": 50,
-        "date": "2024-04-05"
-      }
-    ],
-    "VacantProperties": [
-      {
-        "id": "3",
-        "name": "Apartment 3",
-        "address": "789 Oak St",
-        "rent": 1300,
-        "occupied": false,
-        "tenant_id": null,
-        "image": "https://example.com/apartment3.jpg"
-      },
-      {
-        "id": "1",
-        "name": "Apartment 3",
-        "address": "789 Oak St",
-        "rent": 1300,
-        "occupied": false,
-        "tenant_id": null,
-        "image": "https://example.com/apartment3.jpg"
-      }
-    ]
+        "review_msg": "Had a pleasant stay here. The staff was friendly, and the atmosphere was lively. Will definitely recommend it to fellow travelers.",
+        "rating": "4"
+        },
+        {
+        "image": "reviewer4.jpg",
+        "city": "Kolkata",
+        "name": "Robert Brown",
+        "review_msg": "Great value for money! The location is convenient, and the facilities provided are good. Enjoyed my time here.",
+        "rating": "4.5"
+        }
+        ],
+        "amenities": [
+        "Shared Kitchen",
+        "Laundry Facilities",
+        "Common Lounge"
+        ]
+        },
+        {
+        "title": "Urban Retreat Hostel",
+        "location": "Delhi",
+        "images": [
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/a382d8fb.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/c8d509fc.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/e1abf47f.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/94f69e38.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/2e7f6613.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/a382d8fb.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/17190d76.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium"
+        ],
+        "rating": "4.5",
+        "nearBy": "Karol Bagh, Red Fort",
+        "Rent": "3500",
+        "map_location": {
+        "lat": "28.7041",
+        "long": "77.1025"
+        },
+        "description": "Urban Retreat Hostel offers budget-friendly accommodation for backpackers and solo travelers in Delhi. Our hostel provides a comfortable stay with easy access to public transportation and popular landmarks.",
+        "reviews": [
+        {
+        "image": "reviewer3.jpg",
+        "city": "Chennai",
+        "name": "Alice Johnson",
+        "review_msg": "Had a pleasant stay here. The staff was friendly, and the atmosphere was lively. Will definitely recommend it to fellow travelers.",
+        "rating": "4"
+        },
+        {
+        "image": "reviewer4.jpg",
+        "city": "Kolkata",
+        "name": "Robert Brown",
+        "review_msg": "Great value for money! The location is convenient, and the facilities provided are good. Enjoyed my time here.",
+        "rating": "4.5"
+        }
+        ],
+        "amenities": [
+        "Shared Kitchen",
+        "Laundry Facilities",
+        "Common Lounge"
+        ],
+        "id": 3
+        },
+        {
+        "title": "Sunny Beach Resort",
+        "location": "Goa",
+        "images": [
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/0deb6a78.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/41da5046.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/8265eb6b.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/ca1e3c62.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/17190d76.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/ce9940d3.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/c39f6876.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/5ec3cf64.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh"
+        ],
+        "rating": "4.2",
+        "nearBy": "Baga Beach, Calangute Beach",
+        "Rent": "5500",
+        "map_location": {
+        "lat": "15.5594",
+        "long": "73.7536"
+        },
+        "description": "Sunny Beach Resort offers a luxurious beachfront stay in Goa. Enjoy the sun, sand, and sea along with top-notch amenities and services.",
+        "reviews": [
+        {
+        "image": "reviewer5.jpg",
+        "city": "Mumbai",
+        "name": "Emily Watson",
+        "review_msg": "Amazing beachfront property! The rooms are spacious and well-maintained. The staff is courteous and helpful.",
+        "rating": "4.8"
+        },
+        {
+        "image": "reviewer6.jpg",
+        "city": "Bangalore",
+        "name": "David Lee",
+        "review_msg": "Great experience! The resort offers breathtaking views and excellent hospitality. Will visit again.",
+        "rating": "4.5"
+        }
+        ],
+        "amenities": [
+        "Private Beach",
+        "Swimming Pool",
+        "Spa & Wellness Center"
+        ],
+        "id": 4
+        },
+        {
+        "title": "Mountain Lodge",
+        "location": "Shimla",
+        "images": [
+        "https://images.unsplash.com/photo-1614607242094-b1b2cf769ff3?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGFpcmJuYnxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1521401830884-6c03c1c87ebb?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGFpcmJuYnxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1550355191-aa8a80b41353?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGFpcmJuYnxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1601918774946-25832a4be0d6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWlyYm5ifGVufDB8fDB8fHww",
+        "https://images.unsplash.com/photo-1614649024145-7f847b1c803f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWlyYm5ifGVufDB8fDB8fHww"
+        ],
+        "rating": "4.7",
+        "nearBy": "Mall Road, Jakhu Temple",
+        "Rent": "4500",
+        "map_location": {
+        "lat": "31.1048",
+        "long": "77.1734"
+        },
+        "description": "Escape to the serene hills of Shimla with a stay at Mountain Lodge. Enjoy the tranquility of nature along with cozy accommodation and warm hospitality.",
+        "reviews": [
+        {
+        "image": "reviewer7.jpg",
+        "city": "Chandigarh",
+        "name": "Sophia Thomas",
+        "review_msg": "Beautiful location with clean and comfortable rooms. The staff is polite and attentive. Perfect for a peaceful getaway.",
+        "rating": "4.6"
+        },
+        {
+        "image": "reviewer8.jpg",
+        "city": "Delhi",
+        "name": "Michael Johnson",
+        "review_msg": "Had an amazing experience! The lodge offers stunning views and a homely atmosphere. Would love to visit again.",
+        "rating": "4.9"
+        }
+        ],
+        "amenities": [
+        "Scenic Views",
+        "Bonfire Area",
+        "Restaurant"
+        ],
+        "id": 5
+        },
+        {
+        "title": "Coastal Haven Resort",
+        "location": "Kerala",
+        "images": [
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/283cbd1d.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/e1abf47f.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/42013755.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/ea399432.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/49ec19cd.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh"
+        ],
+        "rating": "4.6",
+        "nearBy": "Alleppey Backwaters, Fort Kochi",
+        "Rent": "5000",
+        "map_location": {
+        "lat": "10.8505",
+        "long": "76.2711"
+        },
+        "description": "Experience the beauty of Kerala at Coastal Haven Resort. Nestled amidst lush greenery and serene backwaters, our resort offers a peaceful retreat with modern amenities.",
+        "reviews": [
+        {
+        "image": "reviewer9.jpg",
+        "city": "Hyderabad",
+        "name": "Sophie Anderson",
+        "review_msg": "Absolutely loved my stay here! The resort is beautiful, and the staff is extremely hospitable. Highly recommend!",
+        "rating": "4.7"
+        },
+        {
+        "image": "reviewer10.jpg",
+        "city": "Pune",
+        "name": "Matthew Wilson",
+        "review_msg": "Paradise on Earth! Coastal Haven Resort exceeded all my expectations. The surroundings are breathtaking, and the service is impeccable.",
+        "rating": "5"
+        }
+        ],
+        "amenities": [
+        "Backwater Cruises",
+        "Ayurvedic Spa",
+        "Infinity Pool"
+        ],
+        "id": 6
+        },
+        {
+        "title": "City Lights Hotel",
+        "location": "Mumbai",
+        "images": [
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/65a6f39c.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/5dd08745.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/2cb8a88b.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/54b01978.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/b713de0d.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh"
+        ],
+        "rating": "4.3",
+        "nearBy": "Gateway of India, Marine Drive",
+        "Rent": "4000",
+        "map_location": {
+        "lat": "19.0760",
+        "long": "72.8777"
+        },
+        "description": "Stay in the heart of Mumbai at City Lights Hotel. Our hotel offers modern accommodation with easy access to the city's major attractions and business districts.",
+        "reviews": [
+        {
+        "image": "reviewer11.jpg",
+        "city": "Delhi",
+        "name": "Olivia White",
+        "review_msg": "Had a comfortable stay at City Lights Hotel. The location is convenient, and the rooms are clean. Would recommend!",
+        "rating": "4.2"
+        },
+        {
+        "image": "reviewer12.jpg",
+        "city": "Bangalore",
+        "name": "Daniel Clark",
+        "review_msg": "Good value for money. The staff was polite, and the facilities were satisfactory. Overall, a pleasant experience.",
+        "rating": "4.4"
+        }
+        ],
+        "amenities": [
+        "City View Rooms",
+        "Fitness Center",
+        "24-hour Room Service"
+        ],
+        "id": 7
+        },
+        {
+        "title": "Tranquil Valley Retreat",
+        "location": "Coorg",
+        "images": [
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/2a0dcea9.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/680d2d96.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/2d8be857.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/d0fb5295.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/ed05e392.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/1e6ecb9a.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh"
+        ],
+        "rating": "4.8",
+        "nearBy": "Madikeri Fort, Abbey Falls",
+        "Rent": "6000",
+        "map_location": {
+        "lat": "12.3375",
+        "long": "75.8069"
+        },
+        "description": "Escape to nature's lap at Tranquil Valley Retreat in Coorg. Surrounded by lush greenery and serene valleys, our retreat offers a peaceful getaway with luxurious amenities.",
+        "reviews": [
+        {
+        "image": "reviewer13.jpg",
+        "city": "Chennai",
+        "name": "Sophia Smith",
+        "review_msg": "Absolutely mesmerizing! Tranquil Valley Retreat is a paradise on Earth. The views are breathtaking, and the service is top-notch.",
+        "rating": "5"
+        },
+        {
+        "image": "reviewer14.jpg",
+        "city": "Hyderabad",
+        "name": "Jack Wilson",
+        "review_msg": "One of the best experiences of my life! The retreat offers a perfect blend of luxury and nature. Will definitely visit again.",
+        "rating": "4.9"
+        }
+        ],
+        "amenities": [
+        "Valley View Rooms",
+        "Nature Walks",
+        "Infinity Pool"
+        ],
+        "id": 8
+        },
+        {
+        "title": "Desert Oasis Resort",
+        "location": "Rajasthan",
+        "images": [
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/8d3b23aa.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/238134e3.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/d3e525f5.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/89b3cff7.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/5eaf3ed9.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/7f99f3fb.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/020d97ae.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh"
+        ],
+        "rating": "4.4",
+        "nearBy": "Jaisalmer Fort, Thar Desert",
+        "Rent": "4800",
+        "map_location": {
+        "lat": "26.9157",
+        "long": "70.9083"
+        },
+        "description": "Experience the magic of the desert at Desert Oasis Resort in Rajasthan. Our resort offers luxurious tents, traditional cuisine, and cultural experiences amidst the golden sands.",
+        "reviews": [
+        {
+        "image": "reviewer15.jpg",
+        "city": "Mumbai",
+        "name": "Emma Brown",
+        "review_msg": "Had an amazing time at Desert Oasis Resort! The desert safari was thrilling, and the hospitality was exceptional.",
+        "rating": "4.7"
+        },
+        {
+        "image": "reviewer16.jpg",
+        "city": "Delhi",
+        "name": "William Taylor",
+        "review_msg": "Truly a unique experience! The resort offers a glimpse into the rich culture of Rajasthan. Highly recommend!",
+        "rating": "4.5"
+        }
+        ],
+        "amenities": [
+        "Luxury Tents",
+        "Camel Safari",
+        "Cultural Shows"
+        ],
+        "id": 9
+        },
+        {
+        "title": "Forest Haven Cottage",
+        "location": "Manali",
+        "images": [
+        "https://images.trvl-media.com/lodging/3000000/2950000/2943400/2943385/9468dd8e.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/3000000/2950000/2943400/2943385/f73c1ad6.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/3000000/2950000/2943400/2943385/b8b69d2e.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/3000000/2950000/2943400/2943385/0d8ad2fd.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/3000000/2950000/2943400/2943385/95980ff1.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh"
+        ],
+        "rating": "4.6",
+        "nearBy": "Mall Road, Solang Valley",
+        "Rent": "5200",
+        "map_location": {
+        "lat": "32.2396",
+        "long": "77.1887"
+        },
+        "description": "Experience the charm of the Himalayas at Forest Haven Cottage in Manali. Our cozy cottages offer a serene retreat amidst pine forests and snow-capped peaks.",
+        "reviews": [
+        {
+        "image": "reviewer17.jpg",
+        "city": "Chandigarh",
+        "name": "Ava Garcia",
+        "review_msg": "Absolutely loved my stay at Forest Haven Cottage! The cottages are well-maintained, and the surroundings are breathtaking.",
+        "rating": "4.8"
+        },
+        {
+        "image": "reviewer18.jpg",
+        "city": "Jaipur",
+        "name": "Ethan Roberts",
+        "review_msg": "Paradise in the mountains! Forest Haven Cottage offers a perfect blend of tranquility and adventure. Can't wait to go back!",
+        "rating": "4.5"
+        }
+        ],
+        "amenities": [
+        "Mountain View Cottages",
+        "Bonfire Nights",
+        "Hiking Trails"
+        ],
+        "id": 10
+        },
+        {
+        "title": "Seaside Villa Retreat",
+        "location": "Puducherry",
+        "images": [
+        "https://images.trvl-media.com/lodging/52000000/51890000/51883400/51883325/afa569eb.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/52000000/51890000/51883400/51883325/22e4dcf4.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/52000000/51890000/51883400/51883325/cbab5800.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/52000000/51890000/51883400/51883325/3fb78735.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/52000000/51890000/51883400/51883325/f13014ae.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/52000000/51890000/51883400/51883325/99f1d49c.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh"
+        ],
+        "rating": "4.7",
+        "nearBy": "Promenade Beach, Auroville",
+        "Rent": "5800",
+        "map_location": {
+        "lat": "11.9139",
+        "long": "79.8145"
+        },
+        "description": "Indulge in luxury by the sea at Seaside Villa Retreat in Puducherry. Our villa offers panoramic views of the Bay of Bengal along with personalized service and exquisite cuisine.",
+        "reviews": [
+        {
+        "image": "reviewer19.jpg",
+        "city": "Bangalore",
+        "name": "Sophie Turner",
+        "review_msg": "An unforgettable experience! Seaside Villa Retreat exceeded all my expectations. The views are stunning, and the villa is elegant.",
+        "rating": "4.9"
+        },
+        {
+        "image": "reviewer20.jpg",
+        "city": "Chennai",
+        "name": "Oliver Smith",
+        "review_msg": "Perfect beachfront getaway! The villa is luxurious, and the staff is extremely attentive. Will definitely return!",
+        "rating": "4.5"
+        }
+        ],
+        "amenities": [
+        "Beachfront Villa",
+        "Infinity Pool",
+        "Private Chef"
+        ],
+        "id": 11
+        },
+        {
+        "title": "Riverside Resort",
+        "location": "Rishikesh",
+        "images": [
+        "https://images.trvl-media.com/lodging/7000000/6730000/6725100/6725009/01224199.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/7000000/6730000/6725100/6725009/8fa38c13.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/7000000/6730000/6725100/6725009/cb343649.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/7000000/6730000/6725100/6725009/8912b5a8.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh"
+        ],
+        "rating": "4.5",
+        "nearBy": "Laxman Jhula, Triveni Ghat",
+        "Rent": "4200",
+        "map_location": {
+        "lat": "30.0869",
+        "long": "78.2676"
+        },
+        "description": "Experience serenity by the Ganges at Riverside Resort in Rishikesh. Our resort offers comfortable accommodation, yoga sessions, and adventure activities amidst nature's beauty.",
+        "reviews": [
+        {
+        "image": "reviewer21.jpg",
+        "city": "Delhi",
+        "name": "Emma Wilson",
+        "review_msg": "Had a rejuvenating experience at Riverside Resort! The location is peaceful, and the activities offered are enjoyable.",
+        "rating": "4.6"
+        },
+        {
+        "image": "reviewer22.jpg",
+        "city": "Dehradun",
+        "name": "Daniel White",
+        "review_msg": "Perfect getaway from the city! Riverside Resort offers a perfect blend of relaxation and adventure. Loved every moment.",
+        "rating": "4.4"
+        }
+        ],
+        "amenities": [
+        "Riverside Cottages",
+        "Yoga Classes",
+        "Rafting Expeditions"
+        ],
+        "id": 12
+        },
+        {
+        "title": "Sunset Beach Resort",
+        "location": "Goa",
+        "images": [
+        "https://a0.muscache.com/im/pictures/f672c9b4-cc80-46bc-890b-a085efaee2d7.jpg?im_w=960",
+        "https://a0.muscache.com/im/pictures/b7c9264d-73c9-45c3-882e-6e9577d63d68.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/4588d88f-0224-42f4-94cb-594f4d362fba.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/062ef52a-9b4f-4301-9413-e757d1758b3f.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/150e47d8-76b8-4233-8724-cbbd12880848.jpg?im_w=720"
+        ],
+        "rating": "4.8",
+        "nearBy": "Baga Beach, Calangute Beach",
+        "Rent": "8200",
+        "map_location": {
+        "lat": "15.5594",
+        "long": "73.7537"
+        },
+        "description": "Experience the ultimate beach vacation at Sunset Beach Resort in Goa. Our resort offers luxurious beachfront villas, vibrant nightlife, and a range of water sports activities.",
+        "reviews": [
+        {
+        "image": "reviewer33.jpg",
+        "city": "Mumbai",
+        "name": "Ella Johnson",
+        "review_msg": "Absolutely loved my stay at Sunset Beach Resort! The villas are stunning, and the beachfront location is unbeatable.",
+        "rating": "4.9"
+        },
+        {
+        "image": "reviewer34.jpg",
+        "city": "Bangalore",
+        "name": "Jack White",
+        "review_msg": "A perfect getaway by the sea! Sunset Beach Resort offers everything you need for a relaxing vacation.",
+        "rating": "4.7"
+        }
+        ],
+        "amenities": [
+        "Beachfront Villas",
+        "Water Sports",
+        "Nightclub"
+        ],
+        "id": 13
+        },
+        {
+        "title": "Mountain Peak Resort",
+        "location": "Ladakh",
+        "images": [
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1059835496185405643/original/32da6f5a-5d1d-4d43-80dc-c4c45be38953.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1059835496185405643/original/47ad9bce-63a3-4c26-ba71-cbbe5f74aea2.jpeg?im_w=72",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1059835496185405643/original/e9946bc4-b05c-4a35-acde-9c6dc0dbf145.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1059835496185405643/original/60947c77-8ac1-4ddc-9270-1f8980c57cd2.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1059835496185405643/original/d7ae0a61-2495-4880-ba2c-5d9660f81d84.jpeg?im_w=720"
+        ],
+        "rating": "4.9",
+        "nearBy": "Pangong Lake, Nubra Valley",
+        "Rent": "7500",
+        "map_location": {
+        "lat": "34.1526",
+        "long": "77.5770"
+        },
+        "description": "Escape to the rugged beauty of Ladakh at Mountain Peak Resort. Our resort offers comfortable accommodation with panoramic views of the Himalayas and serene surroundings.",
+        "reviews": [
+        {
+        "image": "reviewer35.jpg",
+        "city": "Delhi",
+        "name": "Sophia Wilson",
+        "review_msg": "An unforgettable experience! Mountain Peak Resort offers a perfect blend of luxury and adventure amidst the majestic Himalayas.",
+        "rating": "5"
+        },
+        {
+        "image": "reviewer36.jpg",
+        "city": "Chandigarh",
+        "name": "Oliver Taylor",
+        "review_msg": "Absolutely breathtaking! The views from Mountain Peak Resort are out of this world. Can't wait to visit again!",
+        "rating": "4.8"
+        }
+        ],
+        "amenities": [
+        "Mountain View Rooms",
+        "Trekking Expeditions",
+        "Cultural Shows"
+        ],
+        "id": 14
+        },
+        {
+        "title": "Beachfront Bliss Resort",
+        "location": "Kovalam",
+        "images": [
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1061463378616582524/original/07f1afed-44cb-429e-a794-e9fe674051ad.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1061463378616582524/original/94126181-fa2c-499e-960e-a17ffe8520dc.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1061463378616582524/original/f26ebb19-ed52-407e-a560-ba4bbec0d411.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1061463378616582524/original/95fe8c57-b5a0-4004-ba29-62b3d4035848.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1061463378616582524/original/9876b43c-998e-4683-9592-21a64930b071.jpeg?im_w=720"
+        ],
+        "rating": "4.7",
+        "nearBy": "Lighthouse Beach, Hawa Beach",
+        "Rent": "6700",
+        "map_location": {
+        "lat": "8.4025",
+        "long": "76.9780"
+        },
+        "description": "Indulge in luxury by the sea at Beachfront Bliss Resort in Kovalam. Our resort offers spacious rooms, rejuvenating spa treatments, and stunning views of the Arabian Sea.",
+        "reviews": [
+        {
+        "image": "reviewer37.jpg",
+        "city": "Chennai",
+        "name": "Emma Turner",
+        "review_msg": "Absolutely loved my stay at Beachfront Bliss Resort! The rooms are elegant, and the beachfront location is unbeatable.",
+        "rating": "4.9"
+        },
+        {
+        "image": "reviewer38.jpg",
+        "city": "Mumbai",
+        "name": "Daniel Clark",
+        "review_msg": "A perfect beach getaway! Beachfront Bliss Resort offers everything you need for a relaxing vacation by the sea.",
+        "rating": "4.6"
+        }
+        ],
+        "amenities": [
+        "Sea View Rooms",
+        "Spa & Wellness Center",
+        "Beachside Dining"
+        ],
+        "id": 15
+        },
+        {
+        "title": "Serenity Cottage",
+        "location": "Ooty",
+        "images": [
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1061463378616582524/original/07f1afed-44cb-429e-a794-e9fe674051ad.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1057077486863156452/original/54a9c80b-d173-472e-b736-878f08e43d3e.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1057077486863156452/original/c37ad341-01d2-432c-bed4-973f063f29f7.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1057077486863156452/original/2dd1278a-8afc-4fe8-a2f4-d8a4216af0f8.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1057077486863156452/original/bf07ee0a-e692-41e1-9bb3-60f5d8579756.jpeg?im_w=720"
+        ],
+        "rating": "4.6",
+        "nearBy": "Botanical Gardens, Ooty Lake",
+        "Rent": "5200",
+        "map_location": {
+        "lat": "11.4100",
+        "long": "76.6953"
+        },
+        "description": "Experience serenity amidst the hills at Serenity Cottage in Ooty. Our cottages offer cozy accommodation with panoramic views of the Nilgiri Mountains and lush greenery.",
+        "reviews": [
+        {
+        "image": "reviewer39.jpg",
+        "city": "Bangalore",
+        "name": "Sophie Brown",
+        "review_msg": "Absolutely mesmerizing! Serenity Cottage is a perfect escape from the city hustle. The views are breathtaking, and the ambiance is peaceful.",
+        "rating": "4.8"
+        },
+        {
+        "image": "reviewer40.jpg",
+        "city": "Chennai",
+        "name": "William Garcia",
+        "review_msg": "A tranquil retreat! Serenity Cottage offers a perfect blend of comfort and nature. Can't wait to visit again!",
+        "rating": "4.5"
+        }
+        ],
+        "amenities": [
+        "Mountain View Cottages",
+        "Nature Walks",
+        "Campfire Nights"
+        ],
+        "id": 16
+        },
+        {
+        "title": "Riverfront Retreat",
+        "location": "Udaipur",
+        "images": [
+        "https://images.trvl-media.com/lodging/37000000/36870000/36869600/36869562/766e9507.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/37000000/36870000/36869600/36869562/d8e0234f.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/37000000/36870000/36869600/36869562/72aa1044.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/37000000/36870000/36869600/36869562/ae592861.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh"
+        ],
+        "rating": "4.8",
+        "nearBy": "City Palace, Lake Pichola",
+        "Rent": "6900",
+        "map_location": {
+        "lat": "24.5854",
+        "long": "73.7125"
+        },
+        "description": "Experience royal luxury by the river at Riverfront Retreat in Udaipur. Our resort offers elegant rooms, traditional Rajasthani cuisine, and breathtaking views of the Aravalli Range.",
+        "reviews": [
+        {
+        "image": "reviewer41.jpg",
+        "city": "Mumbai",
+        "name": "Olivia Clark",
+        "review_msg": "An unforgettable experience! Riverfront Retreat offers a glimpse into the rich heritage of Udaipur. The hospitality is unmatched.",
+        "rating": "4.9"
+        },
+        {
+        "image": "reviewer42.jpg",
+        "city": "Delhi",
+        "name": "James Garcia",
+        "review_msg": "Absolutely loved my stay at Riverfront Retreat! The rooms are spacious, and the views of the river are mesmerizing.",
+        "rating": "4.7"
+        }
+        ],
+        "amenities": [
+        "River View Rooms",
+        "Rajasthani Cuisine",
+        "Cultural Performances"
+        ],
+        "id": 17
+        },
+        {
+        "id": 18,
+        "title": "SarNest - Designed with Nature",
+        "location": "Entire home in Honningsvåg, Norway",
+        "images": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-850769713572940614/original/2b3d050d-c3eb-4f1d-b42f-e5603f1fef8a.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-850769713572940614/original/640d7b52-c87c-4b17-a2ce-ac22cefd25c3.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-850769713572940614/original/41cdf7df-186d-4a53-be61-9d398295cec2.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/f75a6ceb-b36e-4c37-93b1-8e87f1843f19.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/e0a11daa-fc12-4262-ace9-bd925b3bc203.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/c05cd091-be65-4ee1-b75d-06e42f63130b.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-850769713572940614/original/44d344d3-e0d7-423e-8067-5865ae5e7c6d.png?im_w=720",
+        "https://a0.muscache.com/im/pictures/14a1c448-76cb-4f11-8ae2-e3d167a16310.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/1514828b-b1ee-4b47-93e9-e3a77025a992.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-850769713572940614/original/b18991bd-465f-49c8-bf20-97c45ea4c279.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/1b9fa206-3b6f-4af1-b4e5-c6b9df48bdb2.jpg?im_w=720"
+        ],
+        "rating": "4.8",
+        "nearBy": "Connaught Place, India Gate",
+        "Rent": "6000",
+        "map_location": {
+        "lat": "28.6139",
+        "long": "77.2090"
+        },
+        "description": "Cozy Haven Guesthouse offers a warm and welcoming environment for travelers visiting Delhi. Situated in the heart of the city, our guesthouse provides comfortable accommodation and easy access to major attractions.",
+        "reviews": [
+        {
+        "image": "reviewer1.jpg",
+        "city": "Mumbai",
+        "name": "John Doe",
+        "review_msg": "Excellent place to stay! The rooms are clean and well-maintained. The staff is friendly and helpful. Would definitely come back again.",
+        "rating": "5"
+        },
+        {
+        "image": "reviewer2.jpg",
+        "city": "Bangalore",
+        "name": "Jane Smith",
+        "review_msg": "Had a wonderful experience here. The location is perfect, and the amenities provided are great. Highly recommend!",
+        "rating": "4.5"
+        }
+        ],
+        "amenities": [
+        "Free Breakfast",
+        "Wifi",
+        "24/7 Room Service"
+        ]
+        },
+        {
+        "id": 19,
+        "title": "Urban Retreat Hostel",
+        "location": "Delhi",
+        "images": [
+        "https://plus.unsplash.com/premium_photo-1683917068755-c2890e4824e1?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWlyYm5ifGVufDB8fDB8fHww",
+        "https://images.unsplash.com/photo-1591825729269-caeb344f6df2?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YWlyYm5ifGVufDB8fDB8fHww",
+        "https://images.unsplash.com/photo-1622266234556-faab3e09f67b?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YWlyYm5ifGVufDB8fDB8fHww",
+        "https://plus.unsplash.com/premium_photo-1687710306880-95c72d9a19c5?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8YWlyYm5ifGVufDB8fDB8fHww",
+        "https://a0.muscache.com/im/pictures/1514828b-b1ee-4b47-93e9-e3a77025a992.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-850769713572940614/original/b18991bd-465f-49c8-bf20-97c45ea4c279.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/1b9fa206-3b6f-4af1-b4e5-c6b9df48bdb2.jpg?im_w=720"
+        ],
+        "rating": "4.5",
+        "nearBy": "Karol Bagh, Red Fort",
+        "Rent": "3500",
+        "map_location": {
+        "lat": "28.7041",
+        "long": "77.1025"
+        },
+        "description": "Urban Retreat Hostel offers budget-friendly accommodation for backpackers and solo travelers in Delhi. Our hostel provides a comfortable stay with easy access to public transportation and popular landmarks.",
+        "reviews": [
+        {
+        "image": "reviewer3.jpg",
+        "city": "Chennai",
+        "name": "Alice Johnson",
+        "review_msg": "Had a pleasant stay here. The staff was friendly, and the atmosphere was lively. Will definitely recommend it to fellow travelers.",
+        "rating": "4"
+        },
+        {
+        "image": "reviewer4.jpg",
+        "city": "Kolkata",
+        "name": "Robert Brown",
+        "review_msg": "Great value for money! The location is convenient, and the facilities provided are good. Enjoyed my time here.",
+        "rating": "4.5"
+        }
+        ],
+        "amenities": [
+        "Shared Kitchen",
+        "Laundry Facilities",
+        "Common Lounge"
+        ]
+        },
+        {
+        "title": "Urban Retreat Hostel",
+        "location": "Delhi",
+        "images": [
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/a382d8fb.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/c8d509fc.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/e1abf47f.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/94f69e38.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/2e7f6613.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/a382d8fb.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/17190d76.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium"
+        ],
+        "rating": "4.5",
+        "nearBy": "Karol Bagh, Red Fort",
+        "Rent": "3500",
+        "map_location": {
+        "lat": "28.7041",
+        "long": "77.1025"
+        },
+        "description": "Urban Retreat Hostel offers budget-friendly accommodation for backpackers and solo travelers in Delhi. Our hostel provides a comfortable stay with easy access to public transportation and popular landmarks.",
+        "reviews": [
+        {
+        "image": "reviewer3.jpg",
+        "city": "Chennai",
+        "name": "Alice Johnson",
+        "review_msg": "Had a pleasant stay here. The staff was friendly, and the atmosphere was lively. Will definitely recommend it to fellow travelers.",
+        "rating": "4"
+        },
+        {
+        "image": "reviewer4.jpg",
+        "city": "Kolkata",
+        "name": "Robert Brown",
+        "review_msg": "Great value for money! The location is convenient, and the facilities provided are good. Enjoyed my time here.",
+        "rating": "4.5"
+        }
+        ],
+        "amenities": [
+        "Shared Kitchen",
+        "Laundry Facilities",
+        "Common Lounge"
+        ],
+        "id": 20
+        },
+        {
+        "title": "Sunny Beach Resort",
+        "location": "Goa",
+        "images": [
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/0deb6a78.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/41da5046.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/8265eb6b.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/ca1e3c62.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/17190d76.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/ce9940d3.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/c39f6876.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/5ec3cf64.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh"
+        ],
+        "rating": "4.2",
+        "nearBy": "Baga Beach, Calangute Beach",
+        "Rent": "5500",
+        "map_location": {
+        "lat": "15.5594",
+        "long": "73.7536"
+        },
+        "description": "Sunny Beach Resort offers a luxurious beachfront stay in Goa. Enjoy the sun, sand, and sea along with top-notch amenities and services.",
+        "reviews": [
+        {
+        "image": "reviewer5.jpg",
+        "city": "Mumbai",
+        "name": "Emily Watson",
+        "review_msg": "Amazing beachfront property! The rooms are spacious and well-maintained. The staff is courteous and helpful.",
+        "rating": "4.8"
+        },
+        {
+        "image": "reviewer6.jpg",
+        "city": "Bangalore",
+        "name": "David Lee",
+        "review_msg": "Great experience! The resort offers breathtaking views and excellent hospitality. Will visit again.",
+        "rating": "4.5"
+        }
+        ],
+        "amenities": [
+        "Private Beach",
+        "Swimming Pool",
+        "Spa & Wellness Center"
+        ],
+        "id": 21
+        },
+        {
+        "title": "Mountain Lodge",
+        "location": "Shimla",
+        "images": [
+        "https://images.unsplash.com/photo-1614607242094-b1b2cf769ff3?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGFpcmJuYnxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1521401830884-6c03c1c87ebb?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGFpcmJuYnxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1550355191-aa8a80b41353?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGFpcmJuYnxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1601918774946-25832a4be0d6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWlyYm5ifGVufDB8fDB8fHww",
+        "https://images.unsplash.com/photo-1614649024145-7f847b1c803f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWlyYm5ifGVufDB8fDB8fHww"
+        ],
+        "rating": "4.7",
+        "nearBy": "Mall Road, Jakhu Temple",
+        "Rent": "4500",
+        "map_location": {
+        "lat": "31.1048",
+        "long": "77.1734"
+        },
+        "description": "Escape to the serene hills of Shimla with a stay at Mountain Lodge. Enjoy the tranquility of nature along with cozy accommodation and warm hospitality.",
+        "reviews": [
+        {
+        "image": "reviewer7.jpg",
+        "city": "Chandigarh",
+        "name": "Sophia Thomas",
+        "review_msg": "Beautiful location with clean and comfortable rooms. The staff is polite and attentive. Perfect for a peaceful getaway.",
+        "rating": "4.6"
+        },
+        {
+        "image": "reviewer8.jpg",
+        "city": "Delhi",
+        "name": "Michael Johnson",
+        "review_msg": "Had an amazing experience! The lodge offers stunning views and a homely atmosphere. Would love to visit again.",
+        "rating": "4.9"
+        }
+        ],
+        "amenities": [
+        "Scenic Views",
+        "Bonfire Area",
+        "Restaurant"
+        ],
+        "id": 22
+        },
+        {
+        "title": "Coastal Haven Resort",
+        "location": "Kerala",
+        "images": [
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/283cbd1d.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/e1abf47f.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/42013755.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/ea399432.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/49ec19cd.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh"
+        ],
+        "rating": "4.6",
+        "nearBy": "Alleppey Backwaters, Fort Kochi",
+        "Rent": "5000",
+        "map_location": {
+        "lat": "10.8505",
+        "long": "76.2711"
+        },
+        "description": "Experience the beauty of Kerala at Coastal Haven Resort. Nestled amidst lush greenery and serene backwaters, our resort offers a peaceful retreat with modern amenities.",
+        "reviews": [
+        {
+        "image": "reviewer9.jpg",
+        "city": "Hyderabad",
+        "name": "Sophie Anderson",
+        "review_msg": "Absolutely loved my stay here! The resort is beautiful, and the staff is extremely hospitable. Highly recommend!",
+        "rating": "4.7"
+        },
+        {
+        "image": "reviewer10.jpg",
+        "city": "Pune",
+        "name": "Matthew Wilson",
+        "review_msg": "Paradise on Earth! Coastal Haven Resort exceeded all my expectations. The surroundings are breathtaking, and the service is impeccable.",
+        "rating": "5"
+        }
+        ],
+        "amenities": [
+        "Backwater Cruises",
+        "Ayurvedic Spa",
+        "Infinity Pool"
+        ],
+        "id": 23
+        },
+        {
+        "title": "City Lights Hotel",
+        "location": "Mumbai",
+        "images": [
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/65a6f39c.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/5dd08745.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/2cb8a88b.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/54b01978.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/b713de0d.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh"
+        ],
+        "rating": "4.3",
+        "nearBy": "Gateway of India, Marine Drive",
+        "Rent": "4000",
+        "map_location": {
+        "lat": "19.0760",
+        "long": "72.8777"
+        },
+        "description": "Stay in the heart of Mumbai at City Lights Hotel. Our hotel offers modern accommodation with easy access to the city's major attractions and business districts.",
+        "reviews": [
+        {
+        "image": "reviewer11.jpg",
+        "city": "Delhi",
+        "name": "Olivia White",
+        "review_msg": "Had a comfortable stay at City Lights Hotel. The location is convenient, and the rooms are clean. Would recommend!",
+        "rating": "4.2"
+        },
+        {
+        "image": "reviewer12.jpg",
+        "city": "Bangalore",
+        "name": "Daniel Clark",
+        "review_msg": "Good value for money. The staff was polite, and the facilities were satisfactory. Overall, a pleasant experience.",
+        "rating": "4.4"
+        }
+        ],
+        "amenities": [
+        "City View Rooms",
+        "Fitness Center",
+        "24-hour Room Service"
+        ],
+        "id": 24
+        },
+        {
+        "title": "Tranquil Valley Retreat",
+        "location": "Coorg",
+        "images": [
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/2a0dcea9.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/680d2d96.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/2d8be857.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/d0fb5295.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/ed05e392.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/1e6ecb9a.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh"
+        ],
+        "rating": "4.8",
+        "nearBy": "Madikeri Fort, Abbey Falls",
+        "Rent": "6000",
+        "map_location": {
+        "lat": "12.3375",
+        "long": "75.8069"
+        },
+        "description": "Escape to nature's lap at Tranquil Valley Retreat in Coorg. Surrounded by lush greenery and serene valleys, our retreat offers a peaceful getaway with luxurious amenities.",
+        "reviews": [
+        {
+        "image": "reviewer13.jpg",
+        "city": "Chennai",
+        "name": "Sophia Smith",
+        "review_msg": "Absolutely mesmerizing! Tranquil Valley Retreat is a paradise on Earth. The views are breathtaking, and the service is top-notch.",
+        "rating": "5"
+        },
+        {
+        "image": "reviewer14.jpg",
+        "city": "Hyderabad",
+        "name": "Jack Wilson",
+        "review_msg": "One of the best experiences of my life! The retreat offers a perfect blend of luxury and nature. Will definitely visit again.",
+        "rating": "4.9"
+        }
+        ],
+        "amenities": [
+        "Valley View Rooms",
+        "Nature Walks",
+        "Infinity Pool"
+        ],
+        "id": 25
+        },
+        {
+        "title": "Desert Oasis Resort",
+        "location": "Rajasthan",
+        "images": [
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/8d3b23aa.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/238134e3.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/d3e525f5.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/89b3cff7.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/5eaf3ed9.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/7f99f3fb.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/020d97ae.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh"
+        ],
+        "rating": "4.4",
+        "nearBy": "Jaisalmer Fort, Thar Desert",
+        "Rent": "4800",
+        "map_location": {
+        "lat": "26.9157",
+        "long": "70.9083"
+        },
+        "description": "Experience the magic of the desert at Desert Oasis Resort in Rajasthan. Our resort offers luxurious tents, traditional cuisine, and cultural experiences amidst the golden sands.",
+        "reviews": [
+        {
+        "image": "reviewer15.jpg",
+        "city": "Mumbai",
+        "name": "Emma Brown",
+        "review_msg": "Had an amazing time at Desert Oasis Resort! The desert safari was thrilling, and the hospitality was exceptional.",
+        "rating": "4.7"
+        },
+        {
+        "image": "reviewer16.jpg",
+        "city": "Delhi",
+        "name": "William Taylor",
+        "review_msg": "Truly a unique experience! The resort offers a glimpse into the rich culture of Rajasthan. Highly recommend!",
+        "rating": "4.5"
+        }
+        ],
+        "amenities": [
+        "Luxury Tents",
+        "Camel Safari",
+        "Cultural Shows"
+        ],
+        "id": 26
+        },
+        {
+        "title": "Forest Haven Cottage",
+        "location": "Manali",
+        "images": [
+        "https://images.trvl-media.com/lodging/3000000/2950000/2943400/2943385/9468dd8e.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/3000000/2950000/2943400/2943385/f73c1ad6.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/3000000/2950000/2943400/2943385/b8b69d2e.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/3000000/2950000/2943400/2943385/0d8ad2fd.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/3000000/2950000/2943400/2943385/95980ff1.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh"
+        ],
+        "rating": "4.6",
+        "nearBy": "Mall Road, Solang Valley",
+        "Rent": "5200",
+        "map_location": {
+        "lat": "32.2396",
+        "long": "77.1887"
+        },
+        "description": "Experience the charm of the Himalayas at Forest Haven Cottage in Manali. Our cozy cottages offer a serene retreat amidst pine forests and snow-capped peaks.",
+        "reviews": [
+        {
+        "image": "reviewer17.jpg",
+        "city": "Chandigarh",
+        "name": "Ava Garcia",
+        "review_msg": "Absolutely loved my stay at Forest Haven Cottage! The cottages are well-maintained, and the surroundings are breathtaking.",
+        "rating": "4.8"
+        },
+        {
+        "image": "reviewer18.jpg",
+        "city": "Jaipur",
+        "name": "Ethan Roberts",
+        "review_msg": "Paradise in the mountains! Forest Haven Cottage offers a perfect blend of tranquility and adventure. Can't wait to go back!",
+        "rating": "4.5"
+        }
+        ],
+        "amenities": [
+        "Mountain View Cottages",
+        "Bonfire Nights",
+        "Hiking Trails"
+        ],
+        "id": 27
+        },
+        {
+        "title": "Seaside Villa Retreat",
+        "location": "Puducherry",
+        "images": [
+        "https://images.trvl-media.com/lodging/52000000/51890000/51883400/51883325/afa569eb.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/52000000/51890000/51883400/51883325/22e4dcf4.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/52000000/51890000/51883400/51883325/cbab5800.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/52000000/51890000/51883400/51883325/3fb78735.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/52000000/51890000/51883400/51883325/f13014ae.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/52000000/51890000/51883400/51883325/99f1d49c.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh"
+        ],
+        "rating": "4.7",
+        "nearBy": "Promenade Beach, Auroville",
+        "Rent": "5800",
+        "map_location": {
+        "lat": "11.9139",
+        "long": "79.8145"
+        },
+        "description": "Indulge in luxury by the sea at Seaside Villa Retreat in Puducherry. Our villa offers panoramic views of the Bay of Bengal along with personalized service and exquisite cuisine.",
+        "reviews": [
+        {
+        "image": "reviewer19.jpg",
+        "city": "Bangalore",
+        "name": "Sophie Turner",
+        "review_msg": "An unforgettable experience! Seaside Villa Retreat exceeded all my expectations. The views are stunning, and the villa is elegant.",
+        "rating": "4.9"
+        },
+        {
+        "image": "reviewer20.jpg",
+        "city": "Chennai",
+        "name": "Oliver Smith",
+        "review_msg": "Perfect beachfront getaway! The villa is luxurious, and the staff is extremely attentive. Will definitely return!",
+        "rating": "4.5"
+        }
+        ],
+        "amenities": [
+        "Beachfront Villa",
+        "Infinity Pool",
+        "Private Chef"
+        ],
+        "id": 28
+        },
+        {
+        "title": "Riverside Resort",
+        "location": "Rishikesh",
+        "images": [
+        "https://images.trvl-media.com/lodging/7000000/6730000/6725100/6725009/01224199.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/7000000/6730000/6725100/6725009/8fa38c13.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/7000000/6730000/6725100/6725009/cb343649.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/7000000/6730000/6725100/6725009/8912b5a8.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh"
+        ],
+        "rating": "4.5",
+        "nearBy": "Laxman Jhula, Triveni Ghat",
+        "Rent": "4200",
+        "map_location": {
+        "lat": "30.0869",
+        "long": "78.2676"
+        },
+        "description": "Experience serenity by the Ganges at Riverside Resort in Rishikesh. Our resort offers comfortable accommodation, yoga sessions, and adventure activities amidst nature's beauty.",
+        "reviews": [
+        {
+        "image": "reviewer21.jpg",
+        "city": "Delhi",
+        "name": "Emma Wilson",
+        "review_msg": "Had a rejuvenating experience at Riverside Resort! The location is peaceful, and the activities offered are enjoyable.",
+        "rating": "4.6"
+        },
+        {
+        "image": "reviewer22.jpg",
+        "city": "Dehradun",
+        "name": "Daniel White",
+        "review_msg": "Perfect getaway from the city! Riverside Resort offers a perfect blend of relaxation and adventure. Loved every moment.",
+        "rating": "4.4"
+        }
+        ],
+        "amenities": [
+        "Riverside Cottages",
+        "Yoga Classes",
+        "Rafting Expeditions"
+        ],
+        "id": 29
+        },
+        {
+        "title": "Sunset Beach Resort",
+        "location": "Goa",
+        "images": [
+        "https://a0.muscache.com/im/pictures/f672c9b4-cc80-46bc-890b-a085efaee2d7.jpg?im_w=960",
+        "https://a0.muscache.com/im/pictures/b7c9264d-73c9-45c3-882e-6e9577d63d68.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/4588d88f-0224-42f4-94cb-594f4d362fba.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/062ef52a-9b4f-4301-9413-e757d1758b3f.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/150e47d8-76b8-4233-8724-cbbd12880848.jpg?im_w=720"
+        ],
+        "rating": "4.8",
+        "nearBy": "Baga Beach, Calangute Beach",
+        "Rent": "8200",
+        "map_location": {
+        "lat": "15.5594",
+        "long": "73.7537"
+        },
+        "description": "Experience the ultimate beach vacation at Sunset Beach Resort in Goa. Our resort offers luxurious beachfront villas, vibrant nightlife, and a range of water sports activities.",
+        "reviews": [
+        {
+        "image": "reviewer33.jpg",
+        "city": "Mumbai",
+        "name": "Ella Johnson",
+        "review_msg": "Absolutely loved my stay at Sunset Beach Resort! The villas are stunning, and the beachfront location is unbeatable.",
+        "rating": "4.9"
+        },
+        {
+        "image": "reviewer34.jpg",
+        "city": "Bangalore",
+        "name": "Jack White",
+        "review_msg": "A perfect getaway by the sea! Sunset Beach Resort offers everything you need for a relaxing vacation.",
+        "rating": "4.7"
+        }
+        ],
+        "amenities": [
+        "Beachfront Villas",
+        "Water Sports",
+        "Nightclub"
+        ],
+        "id": 30
+        },
+        {
+        "title": "Mountain Peak Resort",
+        "location": "Ladakh",
+        "images": [
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1059835496185405643/original/32da6f5a-5d1d-4d43-80dc-c4c45be38953.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1059835496185405643/original/47ad9bce-63a3-4c26-ba71-cbbe5f74aea2.jpeg?im_w=72",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1059835496185405643/original/e9946bc4-b05c-4a35-acde-9c6dc0dbf145.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1059835496185405643/original/60947c77-8ac1-4ddc-9270-1f8980c57cd2.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1059835496185405643/original/d7ae0a61-2495-4880-ba2c-5d9660f81d84.jpeg?im_w=720"
+        ],
+        "rating": "4.9",
+        "nearBy": "Pangong Lake, Nubra Valley",
+        "Rent": "7500",
+        "map_location": {
+        "lat": "34.1526",
+        "long": "77.5770"
+        },
+        "description": "Escape to the rugged beauty of Ladakh at Mountain Peak Resort. Our resort offers comfortable accommodation with panoramic views of the Himalayas and serene surroundings.",
+        "reviews": [
+        {
+        "image": "reviewer35.jpg",
+        "city": "Delhi",
+        "name": "Sophia Wilson",
+        "review_msg": "An unforgettable experience! Mountain Peak Resort offers a perfect blend of luxury and adventure amidst the majestic Himalayas.",
+        "rating": "5"
+        },
+        {
+        "image": "reviewer36.jpg",
+        "city": "Chandigarh",
+        "name": "Oliver Taylor",
+        "review_msg": "Absolutely breathtaking! The views from Mountain Peak Resort are out of this world. Can't wait to visit again!",
+        "rating": "4.8"
+        }
+        ],
+        "amenities": [
+        "Mountain View Rooms",
+        "Trekking Expeditions",
+        "Cultural Shows"
+        ],
+        "id": 31
+        },
+        {
+        "title": "Beachfront Bliss Resort",
+        "location": "Kovalam",
+        "images": [
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1061463378616582524/original/07f1afed-44cb-429e-a794-e9fe674051ad.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1061463378616582524/original/94126181-fa2c-499e-960e-a17ffe8520dc.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1061463378616582524/original/f26ebb19-ed52-407e-a560-ba4bbec0d411.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1061463378616582524/original/95fe8c57-b5a0-4004-ba29-62b3d4035848.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1061463378616582524/original/9876b43c-998e-4683-9592-21a64930b071.jpeg?im_w=720"
+        ],
+        "rating": "4.7",
+        "nearBy": "Lighthouse Beach, Hawa Beach",
+        "Rent": "6700",
+        "map_location": {
+        "lat": "8.4025",
+        "long": "76.9780"
+        },
+        "description": "Indulge in luxury by the sea at Beachfront Bliss Resort in Kovalam. Our resort offers spacious rooms, rejuvenating spa treatments, and stunning views of the Arabian Sea.",
+        "reviews": [
+        {
+        "image": "reviewer37.jpg",
+        "city": "Chennai",
+        "name": "Emma Turner",
+        "review_msg": "Absolutely loved my stay at Beachfront Bliss Resort! The rooms are elegant, and the beachfront location is unbeatable.",
+        "rating": "4.9"
+        },
+        {
+        "image": "reviewer38.jpg",
+        "city": "Mumbai",
+        "name": "Daniel Clark",
+        "review_msg": "A perfect beach getaway! Beachfront Bliss Resort offers everything you need for a relaxing vacation by the sea.",
+        "rating": "4.6"
+        }
+        ],
+        "amenities": [
+        "Sea View Rooms",
+        "Spa & Wellness Center",
+        "Beachside Dining"
+        ],
+        "id": 32
+        },
+        {
+        "title": "Serenity Cottage",
+        "location": "Ooty",
+        "images": [
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1061463378616582524/original/07f1afed-44cb-429e-a794-e9fe674051ad.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1057077486863156452/original/54a9c80b-d173-472e-b736-878f08e43d3e.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1057077486863156452/original/c37ad341-01d2-432c-bed4-973f063f29f7.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1057077486863156452/original/2dd1278a-8afc-4fe8-a2f4-d8a4216af0f8.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1057077486863156452/original/bf07ee0a-e692-41e1-9bb3-60f5d8579756.jpeg?im_w=720"
+        ],
+        "rating": "4.6",
+        "nearBy": "Botanical Gardens, Ooty Lake",
+        "Rent": "5200",
+        "map_location": {
+        "lat": "11.4100",
+        "long": "76.6953"
+        },
+        "description": "Experience serenity amidst the hills at Serenity Cottage in Ooty. Our cottages offer cozy accommodation with panoramic views of the Nilgiri Mountains and lush greenery.",
+        "reviews": [
+        {
+        "image": "reviewer39.jpg",
+        "city": "Bangalore",
+        "name": "Sophie Brown",
+        "review_msg": "Absolutely mesmerizing! Serenity Cottage is a perfect escape from the city hustle. The views are breathtaking, and the ambiance is peaceful.",
+        "rating": "4.8"
+        },
+        {
+        "image": "reviewer40.jpg",
+        "city": "Chennai",
+        "name": "William Garcia",
+        "review_msg": "A tranquil retreat! Serenity Cottage offers a perfect blend of comfort and nature. Can't wait to visit again!",
+        "rating": "4.5"
+        }
+        ],
+        "amenities": [
+        "Mountain View Cottages",
+        "Nature Walks",
+        "Campfire Nights"
+        ],
+        "id": 33
+        },
+        {
+        "title": "Riverfront Retreat",
+        "location": "Udaipur",
+        "images": [
+        "https://images.trvl-media.com/lodging/37000000/36870000/36869600/36869562/766e9507.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/37000000/36870000/36869600/36869562/d8e0234f.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/37000000/36870000/36869600/36869562/72aa1044.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/37000000/36870000/36869600/36869562/ae592861.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh"
+        ],
+        "rating": "4.8",
+        "nearBy": "City Palace, Lake Pichola",
+        "Rent": "6900",
+        "map_location": {
+        "lat": "24.5854",
+        "long": "73.7125"
+        },
+        "description": "Experience royal luxury by the river at Riverfront Retreat in Udaipur. Our resort offers elegant rooms, traditional Rajasthani cuisine, and breathtaking views of the Aravalli Range.",
+        "reviews": [
+        {
+        "image": "reviewer41.jpg",
+        "city": "Mumbai",
+        "name": "Olivia Clark",
+        "review_msg": "An unforgettable experience! Riverfront Retreat offers a glimpse into the rich heritage of Udaipur. The hospitality is unmatched.",
+        "rating": "4.9"
+        },
+        {
+        "image": "reviewer42.jpg",
+        "city": "Delhi",
+        "name": "James Garcia",
+        "review_msg": "Absolutely loved my stay at Riverfront Retreat! The rooms are spacious, and the views of the river are mesmerizing.",
+        "rating": "4.7"
+        }
+        ],
+        "amenities": [
+        "River View Rooms",
+        "Rajasthani Cuisine",
+        "Cultural Performances"
+        ],
+        "id": 34
+        },
+        {
+        "id": 35,
+        "title": "SarNest - Designed with Nature",
+        "location": "Entire home in Honningsvåg, Norway",
+        "images": [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-850769713572940614/original/2b3d050d-c3eb-4f1d-b42f-e5603f1fef8a.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-850769713572940614/original/640d7b52-c87c-4b17-a2ce-ac22cefd25c3.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-850769713572940614/original/41cdf7df-186d-4a53-be61-9d398295cec2.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/f75a6ceb-b36e-4c37-93b1-8e87f1843f19.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/e0a11daa-fc12-4262-ace9-bd925b3bc203.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/c05cd091-be65-4ee1-b75d-06e42f63130b.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-850769713572940614/original/44d344d3-e0d7-423e-8067-5865ae5e7c6d.png?im_w=720",
+        "https://a0.muscache.com/im/pictures/14a1c448-76cb-4f11-8ae2-e3d167a16310.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/1514828b-b1ee-4b47-93e9-e3a77025a992.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-850769713572940614/original/b18991bd-465f-49c8-bf20-97c45ea4c279.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/1b9fa206-3b6f-4af1-b4e5-c6b9df48bdb2.jpg?im_w=720"
+        ],
+        "rating": "4.8",
+        "nearBy": "Connaught Place, India Gate",
+        "Rent": "6000",
+        "map_location": {
+        "lat": "28.6139",
+        "long": "77.2090"
+        },
+        "description": "Cozy Haven Guesthouse offers a warm and welcoming environment for travelers visiting Delhi. Situated in the heart of the city, our guesthouse provides comfortable accommodation and easy access to major attractions.",
+        "reviews": [
+        {
+        "image": "reviewer1.jpg",
+        "city": "Mumbai",
+        "name": "John Doe",
+        "review_msg": "Excellent place to stay! The rooms are clean and well-maintained. The staff is friendly and helpful. Would definitely come back again.",
+        "rating": "5"
+        },
+        {
+        "image": "reviewer2.jpg",
+        "city": "Bangalore",
+        "name": "Jane Smith",
+        "review_msg": "Had a wonderful experience here. The location is perfect, and the amenities provided are great. Highly recommend!",
+        "rating": "4.5"
+        }
+        ],
+        "amenities": [
+        "Free Breakfast",
+        "Wifi",
+        "24/7 Room Service"
+        ]
+        },
+        {
+        "id": 36,
+        "title": "Urban Retreat Hostel",
+        "location": "Delhi",
+        "images": [
+        "https://plus.unsplash.com/premium_photo-1683917068755-c2890e4824e1?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWlyYm5ifGVufDB8fDB8fHww",
+        "https://images.unsplash.com/photo-1591825729269-caeb344f6df2?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YWlyYm5ifGVufDB8fDB8fHww",
+        "https://a0.muscache.com/im/pictures/e0a11daa-fc12-4262-ace9-bd925b3bc203.jpg?im_w=720",
+        "https://images.unsplash.com/photo-1622266234556-faab3e09f67b?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YWlyYm5ifGVufDB8fDB8fHww",
+        "https://plus.unsplash.com/premium_photo-1687710306880-95c72d9a19c5?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8YWlyYm5ifGVufDB8fDB8fHww"
+        ],
+        "rating": "4.5",
+        "nearBy": "Karol Bagh, Red Fort",
+        "Rent": "3500",
+        "map_location": {
+        "lat": "28.7041",
+        "long": "77.1025"
+        },
+        "description": "Urban Retreat Hostel offers budget-friendly accommodation for backpackers and solo travelers in Delhi. Our hostel provides a comfortable stay with easy access to public transportation and popular landmarks.",
+        "reviews": [
+        {
+        "image": "reviewer3.jpg",
+        "city": "Chennai",
+        "name": "Alice Johnson",
+        "review_msg": "Had a pleasant stay here. The staff was friendly, and the atmosphere was lively. Will definitely recommend it to fellow travelers.",
+        "rating": "4"
+        },
+        {
+        "image": "reviewer4.jpg",
+        "city": "Kolkata",
+        "name": "Robert Brown",
+        "review_msg": "Great value for money! The location is convenient, and the facilities provided are good. Enjoyed my time here.",
+        "rating": "4.5"
+        }
+        ],
+        "amenities": [
+        "Shared Kitchen",
+        "Laundry Facilities",
+        "Common Lounge"
+        ]
+        },
+        {
+        "title": "Urban Retreat Hostel",
+        "location": "Delhi",
+        "images": [
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/a382d8fb.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/c8d509fc.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/e1abf47f.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/94f69e38.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/2e7f6613.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/a382d8fb.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/17190d76.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium"
+        ],
+        "rating": "4.5",
+        "nearBy": "Karol Bagh, Red Fort",
+        "Rent": "3500",
+        "map_location": {
+        "lat": "28.7041",
+        "long": "77.1025"
+        },
+        "description": "Urban Retreat Hostel offers budget-friendly accommodation for backpackers and solo travelers in Delhi. Our hostel provides a comfortable stay with easy access to public transportation and popular landmarks.",
+        "reviews": [
+        {
+        "image": "reviewer3.jpg",
+        "city": "Chennai",
+        "name": "Alice Johnson",
+        "review_msg": "Had a pleasant stay here. The staff was friendly, and the atmosphere was lively. Will definitely recommend it to fellow travelers.",
+        "rating": "4"
+        },
+        {
+        "image": "reviewer4.jpg",
+        "city": "Kolkata",
+        "name": "Robert Brown",
+        "review_msg": "Great value for money! The location is convenient, and the facilities provided are good. Enjoyed my time here.",
+        "rating": "4.5"
+        }
+        ],
+        "amenities": [
+        "Shared Kitchen",
+        "Laundry Facilities",
+        "Common Lounge"
+        ],
+        "id": 37
+        },
+        {
+        "title": "Sunny Beach Resort",
+        "location": "Goa",
+        "images": [
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/0deb6a78.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/41da5046.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/8265eb6b.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/ca1e3c62.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/17190d76.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/ce9940d3.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/c39f6876.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/5ec3cf64.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh"
+        ],
+        "rating": "4.2",
+        "nearBy": "Baga Beach, Calangute Beach",
+        "Rent": "5500",
+        "map_location": {
+        "lat": "15.5594",
+        "long": "73.7536"
+        },
+        "description": "Sunny Beach Resort offers a luxurious beachfront stay in Goa. Enjoy the sun, sand, and sea along with top-notch amenities and services.",
+        "reviews": [
+        {
+        "image": "reviewer5.jpg",
+        "city": "Mumbai",
+        "name": "Emily Watson",
+        "review_msg": "Amazing beachfront property! The rooms are spacious and well-maintained. The staff is courteous and helpful.",
+        "rating": "4.8"
+        },
+        {
+        "image": "reviewer6.jpg",
+        "city": "Bangalore",
+        "name": "David Lee",
+        "review_msg": "Great experience! The resort offers breathtaking views and excellent hospitality. Will visit again.",
+        "rating": "4.5"
+        }
+        ],
+        "amenities": [
+        "Private Beach",
+        "Swimming Pool",
+        "Spa & Wellness Center"
+        ],
+        "id": 38
+        },
+        {
+        "title": "Mountain Lodge",
+        "location": "Shimla",
+        "images": [
+        "https://images.unsplash.com/photo-1614607242094-b1b2cf769ff3?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGFpcmJuYnxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1521401830884-6c03c1c87ebb?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGFpcmJuYnxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1550355191-aa8a80b41353?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGFpcmJuYnxlbnwwfHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1601918774946-25832a4be0d6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWlyYm5ifGVufDB8fDB8fHww",
+        "https://images.unsplash.com/photo-1614649024145-7f847b1c803f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWlyYm5ifGVufDB8fDB8fHww"
+        ],
+        "rating": "4.7",
+        "nearBy": "Mall Road, Jakhu Temple",
+        "Rent": "4500",
+        "map_location": {
+        "lat": "31.1048",
+        "long": "77.1734"
+        },
+        "description": "Escape to the serene hills of Shimla with a stay at Mountain Lodge. Enjoy the tranquility of nature along with cozy accommodation and warm hospitality.",
+        "reviews": [
+        {
+        "image": "reviewer7.jpg",
+        "city": "Chandigarh",
+        "name": "Sophia Thomas",
+        "review_msg": "Beautiful location with clean and comfortable rooms. The staff is polite and attentive. Perfect for a peaceful getaway.",
+        "rating": "4.6"
+        },
+        {
+        "image": "reviewer8.jpg",
+        "city": "Delhi",
+        "name": "Michael Johnson",
+        "review_msg": "Had an amazing experience! The lodge offers stunning views and a homely atmosphere. Would love to visit again.",
+        "rating": "4.9"
+        }
+        ],
+        "amenities": [
+        "Scenic Views",
+        "Bonfire Area",
+        "Restaurant"
+        ],
+        "id": 39
+        },
+        {
+        "title": "Coastal Haven Resort",
+        "location": "Kerala",
+        "images": [
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/283cbd1d.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/e1abf47f.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/42013755.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/ea399432.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/49ec19cd.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh"
+        ],
+        "rating": "4.6",
+        "nearBy": "Alleppey Backwaters, Fort Kochi",
+        "Rent": "5000",
+        "map_location": {
+        "lat": "10.8505",
+        "long": "76.2711"
+        },
+        "description": "Experience the beauty of Kerala at Coastal Haven Resort. Nestled amidst lush greenery and serene backwaters, our resort offers a peaceful retreat with modern amenities.",
+        "reviews": [
+        {
+        "image": "reviewer9.jpg",
+        "city": "Hyderabad",
+        "name": "Sophie Anderson",
+        "review_msg": "Absolutely loved my stay here! The resort is beautiful, and the staff is extremely hospitable. Highly recommend!",
+        "rating": "4.7"
+        },
+        {
+        "image": "reviewer10.jpg",
+        "city": "Pune",
+        "name": "Matthew Wilson",
+        "review_msg": "Paradise on Earth! Coastal Haven Resort exceeded all my expectations. The surroundings are breathtaking, and the service is impeccable.",
+        "rating": "5"
+        }
+        ],
+        "amenities": [
+        "Backwater Cruises",
+        "Ayurvedic Spa",
+        "Infinity Pool"
+        ],
+        "id": 40
+        },
+        {
+        "title": "City Lights Hotel",
+        "location": "Mumbai",
+        "images": [
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/65a6f39c.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/5dd08745.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/2cb8a88b.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/54b01978.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/b713de0d.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh"
+        ],
+        "rating": "4.3",
+        "nearBy": "Gateway of India, Marine Drive",
+        "Rent": "4000",
+        "map_location": {
+        "lat": "19.0760",
+        "long": "72.8777"
+        },
+        "description": "Stay in the heart of Mumbai at City Lights Hotel. Our hotel offers modern accommodation with easy access to the city's major attractions and business districts.",
+        "reviews": [
+        {
+        "image": "reviewer11.jpg",
+        "city": "Delhi",
+        "name": "Olivia White",
+        "review_msg": "Had a comfortable stay at City Lights Hotel. The location is convenient, and the rooms are clean. Would recommend!",
+        "rating": "4.2"
+        },
+        {
+        "image": "reviewer12.jpg",
+        "city": "Bangalore",
+        "name": "Daniel Clark",
+        "review_msg": "Good value for money. The staff was polite, and the facilities were satisfactory. Overall, a pleasant experience.",
+        "rating": "4.4"
+        }
+        ],
+        "amenities": [
+        "City View Rooms",
+        "Fitness Center",
+        "24-hour Room Service"
+        ],
+        "id": 41
+        },
+        {
+        "title": "Tranquil Valley Retreat",
+        "location": "Coorg",
+        "images": [
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/2a0dcea9.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/680d2d96.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/2d8be857.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/d0fb5295.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/ed05e392.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/1e6ecb9a.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh"
+        ],
+        "rating": "4.8",
+        "nearBy": "Madikeri Fort, Abbey Falls",
+        "Rent": "6000",
+        "map_location": {
+        "lat": "12.3375",
+        "long": "75.8069"
+        },
+        "description": "Escape to nature's lap at Tranquil Valley Retreat in Coorg. Surrounded by lush greenery and serene valleys, our retreat offers a peaceful getaway with luxurious amenities.",
+        "reviews": [
+        {
+        "image": "reviewer13.jpg",
+        "city": "Chennai",
+        "name": "Sophia Smith",
+        "review_msg": "Absolutely mesmerizing! Tranquil Valley Retreat is a paradise on Earth. The views are breathtaking, and the service is top-notch.",
+        "rating": "5"
+        },
+        {
+        "image": "reviewer14.jpg",
+        "city": "Hyderabad",
+        "name": "Jack Wilson",
+        "review_msg": "One of the best experiences of my life! The retreat offers a perfect blend of luxury and nature. Will definitely visit again.",
+        "rating": "4.9"
+        }
+        ],
+        "amenities": [
+        "Valley View Rooms",
+        "Nature Walks",
+        "Infinity Pool"
+        ],
+        "id": 42
+        },
+        {
+        "title": "Desert Oasis Resort",
+        "location": "Rajasthan",
+        "images": [
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/8d3b23aa.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/238134e3.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/d3e525f5.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/89b3cff7.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/5eaf3ed9.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/7f99f3fb.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/4000000/3620000/3610400/3610337/020d97ae.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh"
+        ],
+        "rating": "4.4",
+        "nearBy": "Jaisalmer Fort, Thar Desert",
+        "Rent": "4800",
+        "map_location": {
+        "lat": "26.9157",
+        "long": "70.9083"
+        },
+        "description": "Experience the magic of the desert at Desert Oasis Resort in Rajasthan. Our resort offers luxurious tents, traditional cuisine, and cultural experiences amidst the golden sands.",
+        "reviews": [
+        {
+        "image": "reviewer15.jpg",
+        "city": "Mumbai",
+        "name": "Emma Brown",
+        "review_msg": "Had an amazing time at Desert Oasis Resort! The desert safari was thrilling, and the hospitality was exceptional.",
+        "rating": "4.7"
+        },
+        {
+        "image": "reviewer16.jpg",
+        "city": "Delhi",
+        "name": "William Taylor",
+        "review_msg": "Truly a unique experience! The resort offers a glimpse into the rich culture of Rajasthan. Highly recommend!",
+        "rating": "4.5"
+        }
+        ],
+        "amenities": [
+        "Luxury Tents",
+        "Camel Safari",
+        "Cultural Shows"
+        ],
+        "id": 43
+        },
+        {
+        "title": "Forest Haven Cottage",
+        "location": "Manali",
+        "images": [
+        "https://images.trvl-media.com/lodging/3000000/2950000/2943400/2943385/9468dd8e.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/3000000/2950000/2943400/2943385/f73c1ad6.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/3000000/2950000/2943400/2943385/b8b69d2e.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/3000000/2950000/2943400/2943385/0d8ad2fd.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/3000000/2950000/2943400/2943385/95980ff1.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh"
+        ],
+        "rating": "4.6",
+        "nearBy": "Mall Road, Solang Valley",
+        "Rent": "5200",
+        "map_location": {
+        "lat": "32.2396",
+        "long": "77.1887"
+        },
+        "description": "Experience the charm of the Himalayas at Forest Haven Cottage in Manali. Our cozy cottages offer a serene retreat amidst pine forests and snow-capped peaks.",
+        "reviews": [
+        {
+        "image": "reviewer17.jpg",
+        "city": "Chandigarh",
+        "name": "Ava Garcia",
+        "review_msg": "Absolutely loved my stay at Forest Haven Cottage! The cottages are well-maintained, and the surroundings are breathtaking.",
+        "rating": "4.8"
+        },
+        {
+        "image": "reviewer18.jpg",
+        "city": "Jaipur",
+        "name": "Ethan Roberts",
+        "review_msg": "Paradise in the mountains! Forest Haven Cottage offers a perfect blend of tranquility and adventure. Can't wait to go back!",
+        "rating": "4.5"
+        }
+        ],
+        "amenities": [
+        "Mountain View Cottages",
+        "Bonfire Nights",
+        "Hiking Trails"
+        ],
+        "id": 44
+        },
+        {
+        "title": "Seaside Villa Retreat",
+        "location": "Puducherry",
+        "images": [
+        "https://images.trvl-media.com/lodging/52000000/51890000/51883400/51883325/afa569eb.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/52000000/51890000/51883400/51883325/22e4dcf4.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/52000000/51890000/51883400/51883325/cbab5800.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/52000000/51890000/51883400/51883325/3fb78735.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/52000000/51890000/51883400/51883325/f13014ae.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/52000000/51890000/51883400/51883325/99f1d49c.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh"
+        ],
+        "rating": "4.7",
+        "nearBy": "Promenade Beach, Auroville",
+        "Rent": "5800",
+        "map_location": {
+        "lat": "11.9139",
+        "long": "79.8145"
+        },
+        "description": "Indulge in luxury by the sea at Seaside Villa Retreat in Puducherry. Our villa offers panoramic views of the Bay of Bengal along with personalized service and exquisite cuisine.",
+        "reviews": [
+        {
+        "image": "reviewer19.jpg",
+        "city": "Bangalore",
+        "name": "Sophie Turner",
+        "review_msg": "An unforgettable experience! Seaside Villa Retreat exceeded all my expectations. The views are stunning, and the villa is elegant.",
+        "rating": "4.9"
+        },
+        {
+        "image": "reviewer20.jpg",
+        "city": "Chennai",
+        "name": "Oliver Smith",
+        "review_msg": "Perfect beachfront getaway! The villa is luxurious, and the staff is extremely attentive. Will definitely return!",
+        "rating": "4.5"
+        }
+        ],
+        "amenities": [
+        "Beachfront Villa",
+        "Infinity Pool",
+        "Private Chef"
+        ],
+        "id": 45
+        },
+        {
+        "title": "Riverside Resort",
+        "location": "Rishikesh",
+        "images": [
+        "https://images.trvl-media.com/lodging/7000000/6730000/6725100/6725009/01224199.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/7000000/6730000/6725100/6725009/8fa38c13.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/7000000/6730000/6725100/6725009/cb343649.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/7000000/6730000/6725100/6725009/8912b5a8.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh"
+        ],
+        "rating": "4.5",
+        "nearBy": "Laxman Jhula, Triveni Ghat",
+        "Rent": "4200",
+        "map_location": {
+        "lat": "30.0869",
+        "long": "78.2676"
+        },
+        "description": "Experience serenity by the Ganges at Riverside Resort in Rishikesh. Our resort offers comfortable accommodation, yoga sessions, and adventure activities amidst nature's beauty.",
+        "reviews": [
+        {
+        "image": "reviewer21.jpg",
+        "city": "Delhi",
+        "name": "Emma Wilson",
+        "review_msg": "Had a rejuvenating experience at Riverside Resort! The location is peaceful, and the activities offered are enjoyable.",
+        "rating": "4.6"
+        },
+        {
+        "image": "reviewer22.jpg",
+        "city": "Dehradun",
+        "name": "Daniel White",
+        "review_msg": "Perfect getaway from the city! Riverside Resort offers a perfect blend of relaxation and adventure. Loved every moment.",
+        "rating": "4.4"
+        }
+        ],
+        "amenities": [
+        "Riverside Cottages",
+        "Yoga Classes",
+        "Rafting Expeditions"
+        ],
+        "id": 46
+        },
+        {
+        "title": "Sunset Beach Resort",
+        "location": "Goa",
+        "images": [
+        "https://a0.muscache.com/im/pictures/f672c9b4-cc80-46bc-890b-a085efaee2d7.jpg?im_w=960",
+        "https://a0.muscache.com/im/pictures/b7c9264d-73c9-45c3-882e-6e9577d63d68.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/4588d88f-0224-42f4-94cb-594f4d362fba.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/062ef52a-9b4f-4301-9413-e757d1758b3f.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/150e47d8-76b8-4233-8724-cbbd12880848.jpg?im_w=720"
+        ],
+        "rating": "4.8",
+        "nearBy": "Baga Beach, Calangute Beach",
+        "Rent": "8200",
+        "map_location": {
+        "lat": "15.5594",
+        "long": "73.7537"
+        },
+        "description": "Experience the ultimate beach vacation at Sunset Beach Resort in Goa. Our resort offers luxurious beachfront villas, vibrant nightlife, and a range of water sports activities.",
+        "reviews": [
+        {
+        "image": "reviewer33.jpg",
+        "city": "Mumbai",
+        "name": "Ella Johnson",
+        "review_msg": "Absolutely loved my stay at Sunset Beach Resort! The villas are stunning, and the beachfront location is unbeatable.",
+        "rating": "4.9"
+        },
+        {
+        "image": "reviewer34.jpg",
+        "city": "Bangalore",
+        "name": "Jack White",
+        "review_msg": "A perfect getaway by the sea! Sunset Beach Resort offers everything you need for a relaxing vacation.",
+        "rating": "4.7"
+        }
+        ],
+        "amenities": [
+        "Beachfront Villas",
+        "Water Sports",
+        "Nightclub"
+        ],
+        "id": 47
+        },
+        {
+        "title": "Mountain Peak Resort",
+        "location": "Ladakh",
+        "images": [
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1059835496185405643/original/32da6f5a-5d1d-4d43-80dc-c4c45be38953.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1059835496185405643/original/47ad9bce-63a3-4c26-ba71-cbbe5f74aea2.jpeg?im_w=72",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1059835496185405643/original/e9946bc4-b05c-4a35-acde-9c6dc0dbf145.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1059835496185405643/original/60947c77-8ac1-4ddc-9270-1f8980c57cd2.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1059835496185405643/original/d7ae0a61-2495-4880-ba2c-5d9660f81d84.jpeg?im_w=720"
+        ],
+        "rating": "4.9",
+        "nearBy": "Pangong Lake, Nubra Valley",
+        "Rent": "7500",
+        "map_location": {
+        "lat": "34.1526",
+        "long": "77.5770"
+        },
+        "description": "Escape to the rugged beauty of Ladakh at Mountain Peak Resort. Our resort offers comfortable accommodation with panoramic views of the Himalayas and serene surroundings.",
+        "reviews": [
+        {
+        "image": "reviewer35.jpg",
+        "city": "Delhi",
+        "name": "Sophia Wilson",
+        "review_msg": "An unforgettable experience! Mountain Peak Resort offers a perfect blend of luxury and adventure amidst the majestic Himalayas.",
+        "rating": "5"
+        },
+        {
+        "image": "reviewer36.jpg",
+        "city": "Chandigarh",
+        "name": "Oliver Taylor",
+        "review_msg": "Absolutely breathtaking! The views from Mountain Peak Resort are out of this world. Can't wait to visit again!",
+        "rating": "4.8"
+        }
+        ],
+        "amenities": [
+        "Mountain View Rooms",
+        "Trekking Expeditions",
+        "Cultural Shows"
+        ],
+        "id": 48
+        },
+        {
+        "title": "Beachfront Bliss Resort",
+        "location": "Kovalam",
+        "images": [
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1061463378616582524/original/07f1afed-44cb-429e-a794-e9fe674051ad.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1061463378616582524/original/94126181-fa2c-499e-960e-a17ffe8520dc.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1061463378616582524/original/f26ebb19-ed52-407e-a560-ba4bbec0d411.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1061463378616582524/original/95fe8c57-b5a0-4004-ba29-62b3d4035848.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1061463378616582524/original/9876b43c-998e-4683-9592-21a64930b071.jpeg?im_w=720"
+        ],
+        "rating": "4.7",
+        "nearBy": "Lighthouse Beach, Hawa Beach",
+        "Rent": "6700",
+        "map_location": {
+        "lat": "8.4025",
+        "long": "76.9780"
+        },
+        "description": "Indulge in luxury by the sea at Beachfront Bliss Resort in Kovalam. Our resort offers spacious rooms, rejuvenating spa treatments, and stunning views of the Arabian Sea.",
+        "reviews": [
+        {
+        "image": "reviewer37.jpg",
+        "city": "Chennai",
+        "name": "Emma Turner",
+        "review_msg": "Absolutely loved my stay at Beachfront Bliss Resort! The rooms are elegant, and the beachfront location is unbeatable.",
+        "rating": "4.9"
+        },
+        {
+        "image": "reviewer38.jpg",
+        "city": "Mumbai",
+        "name": "Daniel Clark",
+        "review_msg": "A perfect beach getaway! Beachfront Bliss Resort offers everything you need for a relaxing vacation by the sea.",
+        "rating": "4.6"
+        }
+        ],
+        "amenities": [
+        "Sea View Rooms",
+        "Spa & Wellness Center",
+        "Beachside Dining"
+        ],
+        "id": 49
+        },
+        {
+        "title": "Serenity Cottage",
+        "location": "Ooty",
+        "images": [
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1061463378616582524/original/07f1afed-44cb-429e-a794-e9fe674051ad.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1057077486863156452/original/54a9c80b-d173-472e-b736-878f08e43d3e.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1057077486863156452/original/c37ad341-01d2-432c-bed4-973f063f29f7.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1057077486863156452/original/2dd1278a-8afc-4fe8-a2f4-d8a4216af0f8.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1057077486863156452/original/bf07ee0a-e692-41e1-9bb3-60f5d8579756.jpeg?im_w=720"
+        ],
+        "rating": "4.6",
+        "nearBy": "Botanical Gardens, Ooty Lake",
+        "Rent": "5200",
+        "map_location": {
+        "lat": "11.4100",
+        "long": "76.6953"
+        },
+        "description": "Experience serenity amidst the hills at Serenity Cottage in Ooty. Our cottages offer cozy accommodation with panoramic views of the Nilgiri Mountains and lush greenery.",
+        "reviews": [
+        {
+        "image": "reviewer39.jpg",
+        "city": "Bangalore",
+        "name": "Sophie Brown",
+        "review_msg": "Absolutely mesmerizing! Serenity Cottage is a perfect escape from the city hustle. The views are breathtaking, and the ambiance is peaceful.",
+        "rating": "4.8"
+        },
+        {
+        "image": "reviewer40.jpg",
+        "city": "Chennai",
+        "name": "William Garcia",
+        "review_msg": "A tranquil retreat! Serenity Cottage offers a perfect blend of comfort and nature. Can't wait to visit again!",
+        "rating": "4.5"
+        }
+        ],
+        "amenities": [
+        "Mountain View Cottages",
+        "Nature Walks",
+        "Campfire Nights"
+        ],
+        "id": 50
+        },
+        {
+        "title": "Riverfront Retreat",
+        "location": "Udaipur",
+        "images": [
+        "https://images.trvl-media.com/lodging/37000000/36870000/36869600/36869562/766e9507.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/37000000/36870000/36869600/36869562/d8e0234f.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/37000000/36870000/36869600/36869562/72aa1044.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh",
+        "https://images.trvl-media.com/lodging/37000000/36870000/36869600/36869562/ae592861.jpg?impolicy=fcrop&w=742&h=417&p=0.5&q=mediumHigh"
+        ],
+        "rating": "4.8",
+        "nearBy": "City Palace, Lake Pichola",
+        "Rent": "6900",
+        "map_location": {
+        "lat": "24.5854",
+        "long": "73.7125"
+        },
+        "description": "Experience royal luxury by the river at Riverfront Retreat in Udaipur. Our resort offers elegant rooms, traditional Rajasthani cuisine, and breathtaking views of the Aravalli Range.",
+        "reviews": [
+        {
+        "image": "reviewer41.jpg",
+        "city": "Mumbai",
+        "name": "Olivia Clark",
+        "review_msg": "An unforgettable experience! Riverfront Retreat offers a glimpse into the rich heritage of Udaipur. The hospitality is unmatched.",
+        "rating": "4.9"
+        },
+        {
+        "image": "reviewer42.jpg",
+        "city": "Delhi",
+        "name": "James Garcia",
+        "review_msg": "Absolutely loved my stay at Riverfront Retreat! The rooms are spacious, and the views of the river are mesmerizing.",
+        "rating": "4.7"
+        }
+        ],
+        "amenities": [
+        "River View Rooms",
+        "Rajasthani Cuisine",
+        "Cultural Performances"
+        ],
+        "id": 51
+        }
+        ],
+            "tenants": [
+              {
+                "id": "001",
+                "name": "John Doe",
+                "property_id": "001",
+                "email": "john.doe@example.com",
+                "phone": "123-456-7890",
+                "rent_amount": 1200,
+                "lease_start_date": "2023-05-01",
+                "lease_end_date": "2024-04-30",
+                "status": "Active"
+              },
+              {
+                "id": "002",
+                "name": "Jane Smith",
+                "property_id": "001",
+                "email": "jane.smith@example.com",
+                "phone": "234-567-8901",
+                "rent_amount": 1300,
+                "lease_start_date": "2023-07-15",
+                "lease_end_date": "2024-07-14",
+                "status": "Active"
+              },
+              {
+                "id": "003",
+                "name": "Alice Johnson",
+                "property_id": "002",
+                "email": "alice.johnson@example.com",
+                "phone": "345-678-9012",
+                "rent_amount": 1100,
+                "lease_start_date": "2023-09-01",
+                "lease_end_date": "2024-08-31",
+                "status": "Active"
+              },
+              {
+                "id": "004",
+                "name": "Bob Brown",
+                "property_id": "003",
+                "email": "bob.brown@example.com",
+                "phone": "456-789-0123",
+                "rent_amount": 1400,
+                "lease_start_date": "2023-06-01",
+                "lease_end_date": "2024-05-31",
+                "status": "Active"
+              },
+              {
+                "id": "005",
+                "name": "Emily Davis",
+                "property_id": "003",
+                "email": "emily.davis@example.com",
+                "phone": "567-890-1234",
+                "rent_amount": 1250,
+                "lease_start_date": "2023-08-01",
+                "lease_end_date": "2024-07-31",
+                "status": "Active"
+              },
+              {
+                "id": "006",
+                "name": "Michael Wilson",
+                "property_id": "004",
+                "email": "michael.wilson@example.com",
+                "phone": "678-901-2345",
+                "rent_amount": 1150,
+                "lease_start_date": "2023-10-01",
+                "lease_end_date": "2024-09-30",
+                "status": "Active"
+              },
+              {
+                "id": "007",
+                "name": "Sarah Martinez",
+                "property_id": "004",
+                "email": "sarah.martinez@example.com",
+                "phone": "789-012-3456",
+                "rent_amount": 1350,
+                "lease_start_date": "2023-11-15",
+                "lease_end_date": "2024-11-14",
+                "status": "Active"
+              },
+              {
+                "id": "008",
+                "name": "David Taylor",
+                "property_id": "005",
+                "email": "david.taylor@example.com",
+                "phone": "890-123-4567",
+                "rent_amount": 1225,
+                "lease_start_date": "2023-12-01",
+                "lease_end_date": "2024-11-30",
+                "status": "Active"
+              },
+              {
+                "id": "009",
+                "name": "Jessica Garcia",
+                "property_id": "005",
+                "email": "jessica.garcia@example.com",
+                "phone": "901-234-5678",
+                "rent_amount": 1280,
+                "lease_start_date": "2024-01-01",
+                "lease_end_date": "2024-12-31",
+                "status": "Active"
+              },
+              {
+                "id": "010",
+                "name": "William Brown",
+                "property_id": "006",
+                "email": "william.brown@example.com",
+                "phone": "012-345-6789",
+                "rent_amount": 1300,
+                "lease_start_date": "2024-02-15",
+                "lease_end_date": "2025-02-14",
+                "status": "Active"
+              },
+              {
+                "id": "011",
+                "name": "Olivia Rodriguez",
+                "property_id": "006",
+                "email": "olivia.rodriguez@example.com",
+                "phone": "123-456-7890",
+                "rent_amount": 1400,
+                "lease_start_date": "2024-03-01",
+                "lease_end_date": "2025-02-28",
+                "status": "Active"
+              },
+              {
+                "id": "012",
+                "name": "James Martinez",
+                "property_id": "007",
+                "email": "james.martinez@example.com",
+                "phone": "234-567-8901",
+                "rent_amount": 1150,
+                "lease_start_date": "2024-04-01",
+                "lease_end_date": "2025-03-31",
+                "status": "Active"
+              },
+              {
+                "id": "013",
+                "name": "Sophia Wilson",
+                "property_id": "007",
+                "email": "sophia.wilson@example.com",
+                "phone": "345-678-9012",
+                "rent_amount": 1250,
+                "lease_start_date": "2024-05-15",
+                "lease_end_date": "2025-05-14",
+                "status": "Active"
+              },
+              {
+                "id": "014",
+                "name": "Benjamin Lee",
+                "property_id": "008",
+                "email": "benjamin.lee@example.com",
+                "phone": "456-789-0123",
+                "rent_amount": 1300,
+                "lease_start_date": "2024-06-01",
+                "lease_end_date": "2025-05-31",
+                "status": "Active"
+              },
+              {
+                "id": "015",
+                "name": "Isabella Clark",
+                "property_id": "008",
+                "email": "isabella.clark@example.com",
+                "phone": "567-890-1234",
+                "rent_amount": 1200,
+                "lease_start_date": "2024-07-01",
+                "lease_end_date": "2025-06-30",
+                "status": "Active"
+              },
+              {
+                "id": "016",
+                "name": "Mason Hernandez",
+                "property_id": "009",
+                "email": "mason.hernandez@example.com",
+                "phone": "678-901-2345",
+                "rent_amount": 1350,
+                "lease_start_date": "2024-08-15",
+                "lease_end_date": "2025-08-14",
+                "status": "Active"
+              },
+              {
+                "id": "017",
+                "name": "Charlotte Young",
+                "property_id": "009",
+                "email": "charlotte.young@example.com",
+                "phone": "789-012-3456",
+                "rent_amount": 1250,
+                "lease_start_date": "2024-09-01",
+                "lease_end_date": "2025-08-31",
+                "status": "Active"
+              },
+              {
+                "id": "018",
+                "name": "Logan Hall",
+                "property_id": "010",
+                "email": "logan.hall@example.com",
+                "phone": "890-123-4567",
+                "rent_amount": 1200,
+                "lease_start_date": "2024-10-01",
+                "lease_end_date": "2025-09-30",
+                "status": "Active"
+              },
+              {
+                "id": "019",
+                "name": "Avery King",
+                "property_id": "010",
+                "email": "avery.king@example.com",
+                "phone": "901-234-5678",
+                "rent_amount": 1300,
+                "lease_start_date": "2024-11-15",
+                "lease_end_date": "2025-11-14",
+                "status": "Active"
+              },
+              {
+                "id": "020",
+                "name": "Evelyn Adams",
+                "property_id": "011",
+                "email": "evelyn.adams@example.com",
+                "phone": "012-345-6789",
+                "rent_amount": 1150,
+                "lease_start_date": "2024-12-01",
+                "lease_end_date": "2025-11-30",
+                "status": "Active"
+              }
+            ],
+          
+                "expenses": [
+                  {
+                    "id": "001",
+                    "property_id": "001",
+                    "date": "2024-03-15",
+                    "description": "Maintenance - Plumbing",
+                    "amount": 250.00
+                  },
+                  {
+                    "id": "002",
+                    "property_id": "001",
+                    "date": "2024-04-01",
+                    "description": "Property Tax",
+                    "amount": 1500.00
+                  },
+                  {
+                    "id": "003",
+                    "property_id": "002",
+                    "date": "2024-03-20",
+                    "description": "Gardening Services",
+                    "amount": 120.00
+                  },
+                  {
+                    "id": "004",
+                    "property_id": "002",
+                    "date": "2024-04-10",
+                    "description": "Insurance Premium",
+                    "amount": 800.00
+                  },
+                  {
+                    "id": "005",
+                    "property_id": "003",
+                    "date": "2024-03-25",
+                    "description": "Repairs - Roof",
+                    "amount": 500.00
+                  },
+                  {
+                    "id": "006",
+                    "property_id": "003",
+                    "date": "2024-04-05",
+                    "description": "Utilities - Water",
+                    "amount": 200.00
+                  },
+                  {
+                    "id": "007",
+                    "property_id": "004",
+                    "date": "2024-04-08",
+                    "description": "Cleaning Service",
+                    "amount": 100.00
+                  },
+                  {
+                    "id": "008",
+                    "property_id": "004",
+                    "date": "2024-04-12",
+                    "description": "Maintenance - HVAC",
+                    "amount": 350.00
+                  },
+                  {
+                    "id": "009",
+                    "property_id": "005",
+                    "date": "2024-04-02",
+                    "description": "Property Management Fees",
+                    "amount": 500.00
+                  },
+                  {
+                    "id": "010",
+                    "property_id": "005",
+                    "date": "2024-04-18",
+                    "description": "Advertising - Vacancy",
+                    "amount": 150.00
+                  },
+                  {
+                    "id": "011",
+                    "property_id": "006",
+                    "date": "2024-03-15",
+                    "description": "Maintenance - Electrical",
+                    "amount": 300.00
+                  },
+                  {
+                    "id": "012",
+                    "property_id": "006",
+                    "date": "2024-04-03",
+                    "description": "Landscaping",
+                    "amount": 180.00
+                  },
+                  {
+                    "id": "013",
+                    "property_id": "007",
+                    "date": "2024-04-05",
+                    "description": "Pest Control",
+                    "amount": 80.00
+                  },
+                  {
+                    "id": "014",
+                    "property_id": "007",
+                    "date": "2024-04-15",
+                    "description": "Security Deposit Refund",
+                    "amount": 1000.00
+                  },
+                  {
+                    "id": "015",
+                    "property_id": "008",
+                    "date": "2024-04-10",
+                    "description": "Renovation - Kitchen",
+                    "amount": 1500.00
+                  },
+                  {
+                    "id": "016",
+                    "property_id": "008",
+                    "date": "2024-04-20",
+                    "description": "Cleaning Supplies",
+                    "amount": 50.00
+                  },
+                  {
+                    "id": "017",
+                    "property_id": "009",
+                    "date": "2024-04-08",
+                    "description": "Legal Fees",
+                    "amount": 700.00
+                  },
+                  {
+                    "id": "018",
+                    "property_id": "009",
+                    "date": "2024-04-25",
+                    "description": "Advertising - Property Listing",
+                    "amount": 200.00
+                  },
+                  {
+                    "id": "019",
+                    "property_id": "010",
+                    "date": "2024-04-12",
+                    "description": "Maintenance - Flooring",
+                    "amount": 400.00
+                  },
+                  {
+                    "id": "020",
+                    "property_id": "010",
+                    "date": "2024-04-22",
+                    "description": "Professional Cleaning",
+                    "amount": 120.00
+                  }
+                ],
+              
+                
+                    "vacant_properties": [
+                      {
+                        "id": "001",
+                        "address": "123 Main Street",
+                        "city": "Anytown",
+                        "state": "NY",
+                        "zipcode": "12345",
+                        "rent_amount": 1400.00,
+                        "description": "2-bedroom apartment with parking",
+                        "available_from": "2024-05-01",
+                        "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-1021699523679171741/original/292c0f2a-a851-4a50-a3b5-834faf91b836.jpeg?im_w=720"
+                      },
+                      {
+                        "id": "002",
+                        "address": "456 Elm Avenue",
+                        "city": "Sometown",
+                        "state": "CA",
+                        "zipcode": "67890",
+                        "rent_amount": 1600.00,
+                        "description": "3-bedroom house with backyard",
+                        "available_from": "2024-04-15",
+                        "image_url": "https://a0.muscache.com/im/pictures/951d1f3f-34ee-4029-b115-e2e5b4b1c943.jpg?im_w=720"
+                      },
+                      {
+                        "id": "003",
+                        "address": "789 Oak Lane",
+                        "city": "Othertown",
+                        "state": "TX",
+                        "zipcode": "23456",
+                        "rent_amount": 1200.00,
+                        "description": "1-bedroom apartment in downtown",
+                        "available_from": "2024-05-10",
+                        "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-563604126351538587/original/088bc1e5-b559-473b-a417-b4b15f5e9267.jpeg?im_w=720"
+                      },
+                      {
+                        "id": "004",
+                        "address": "321 Pine Street",
+                        "city": "Anothertown",
+                        "state": "FL",
+                        "zipcode": "78901",
+                        "rent_amount": 1800.00,
+                        "description": "4-bedroom house with pool",
+                        "available_from": "2024-04-30",
+                        "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-30931885/original/6e6b084c-c60f-4470-a5a1-052eaf784ffb.jpeg?im_w=720"
+                      },
+                      {
+                        "id": "005",
+                        "address": "555 Maple Drive",
+                        "city": "Lasttown",
+                        "state": "WA",
+                        "zipcode": "34567",
+                        "rent_amount": 1500.00,
+                        "description": "2-bedroom apartment with gym access",
+                        "available_from": "2024-05-15",
+                        "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-22774851/original/7789a5cc-f7cb-4238-ad5d-f1d71e36365c.jpeg?im_w=720"
+                      },
+                      {
+                        "id": "006",
+                        "address": "777 Chestnut Avenue",
+                        "city": "Smalltown",
+                        "state": "OR",
+                        "zipcode": "45678",
+                        "rent_amount": 1100.00,
+                        "description": "Studio apartment in downtown",
+                        "available_from": "2024-04-25",
+                        "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-39000504/original/b385f68f-e383-42b3-b790-729059674f08.jpeg?im_w=720"
+                      },
+                      {
+                        "id": "007",
+                        "address": "888 Walnut Street",
+                        "city": "Newtown",
+                        "state": "AZ",
+                        "zipcode": "56789",
+                        "rent_amount": 1300.00,
+                        "description": "2-bedroom townhouse with garage",
+                        "available_from": "2024-05-05",
+                        "image_url": "https://a0.muscache.com/im/pictures/a3f630c1-6a5c-41ff-962a-e67b6fba51fc.jpg?im_w=720"
+                      },
+                      {
+                        "id": "008",
+                        "address": "999 Cedar Avenue",
+                        "city": "Largetown",
+                        "state": "IL",
+                        "zipcode": "67890",
+                        "rent_amount": 1700.00,
+                        "description": "3-bedroom apartment near schools",
+                        "available_from": "2024-04-20",
+                        "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-34379374/original/36d7d0da-d363-493b-a957-9663b0d332c8.jpeg?im_w=720"
+                      },
+                      {
+                        "id": "009",
+                        "address": "101 Oak Street",
+                        "city": "Westtown",
+                        "state": "PA",
+                        "zipcode": "12345",
+                        "rent_amount": 1250.00,
+                        "description": "1-bedroom apartment with balcony",
+                        "available_from": "2024-05-03",
+                        "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-52465606/original/c54d7734-691f-406e-80c9-fc1351b9b8d8.jpeg?im_w=720"
+                      },
+                      {
+                        "id": "010",
+                        "address": "222 Birch Lane",
+                        "city": "Hometown",
+                        "state": "GA",
+                        "zipcode": "23456",
+                        "rent_amount": 1550.00,
+                        "description": "2-bedroom apartment in quiet neighborhood",
+                        "available_from": "2024-05-20",
+                        "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-15046805/original/c43595ac-67a9-407b-b1a9-2cf04e412fa9.jpeg?im_w=720"
+                      },
+                      {
+                        "id": "011",
+                        "address": "333 Pinecrest Drive",
+                        "city": "Mountaintown",
+                        "state": "CO",
+                        "zipcode": "34567",
+                        "rent_amount": 1900.00,
+                        "description": "4-bedroom house with mountain view",
+                        "available_from": "2024-04-28",
+                        "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-16342087/original/b6ab69b7-2e6c-4eb5-9c5d-ff3489d10021.jpeg?im_w=720"
+                      },
+                      {
+                        "id": "012",
+                        "address": "444 Cedar Lane",
+                        "city": "Laketown",
+                        "state": "MT",
+                        "zipcode": "45678",
+                        "rent_amount": 1350.00,
+                        "description": "2-bedroom apartment near lake",
+                        "available_from": "2024-05-08",
+                        "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-12188577/original/b7a07c8b-2575-43ae-8173-5a1887f45c24.jpeg?im_w=720"
+                      },
+                      {
+                        "id": "013",
+                        "address": "555 Elm Street",
+                        "city": "Rivertown",
+                        "state": "VA",
+                        "zipcode": "56789",
+                        "rent_amount": 1450.00,
+                        "description": "3-bedroom house with riverfront",
+                        "available_from": "2024-05-12",
+                        "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-633832971934737080/original/78eab92d-5513-4a86-b03d-2f8e24c4ceef.jpeg?im_w=720"
+                      },
+                      {
+                        "id": "014",
+                        "address": "666 Maple Avenue",
+                        "city": "Hilltown",
+                        "state": "NC",
+                        "zipcode": "67890",
+                        "rent_amount": 1600.00,
+                        "description": "2-bedroom apartment in suburban area",
+                        "available_from": "2024-05-18",
+                        "image_url": "https://a0.muscache.com/im/pictures/5ff4beb2-23a4-4a2a-84ea-2a1c7dc58b4f.jpg?im_w=720"
+                      },
+                      {
+                        "id": "015",
+                        "address": "777 Oak Lane",
+                        "city": "Beachtown",
+                        "state": "SC",
+                        "zipcode": "12345",
+                        "rent_amount": 1750.00,
+                        "description": "3-bedroom house with ocean view",
+                        "available_from": "2024-05-22",
+                        "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-795439140237488860/original/f9f266cb-f716-4b1e-8a01-a5f457697214.jpeg?im_w=720"
+                      },
+                      {
+                        "id": "016",
+                        "address": "888 Cedar Street",
+                        "city": "Deserttown",
+                        "state": "NM",
+                        "zipcode": "23456",
+                        "rent_amount": 1200.00,
+                        "description": "1-bedroom apartment in desert area",
+                        "available_from": "2024-05-02",
+                        "image_url": "https://a0.muscache.com/im/pictures/29d0e3fa-be7a-4a4e-89f6-0e3aacfc855a.jpg?im_w=720"
+                      },
+                      {
+                        "id": "017",
+                        "address": "999 Maple Drive",
+                        "city": "Forestown",
+                        "state": "MI",
+                        "zipcode": "34567",
+                        "rent_amount": 1300.00,
+                        "description": "https://a0.muscache.com/im/pictures/airflow/Hosting-25044910/original/2197a6b7-69f4-444d-b00e-0dd6866e0ab5.jpg?im_w=720",
+                        "available_from": "2024-05-07",
+                        "image_url": "https://via.placeholder.com/300"
+                      },
+                      {
+                        "id": "018",
+                        "address": "101 Elm Avenue",
+                        "city": "Gardentown",
+                        "state": "OH",
+                        "zipcode": "45678",
+                        "rent_amount": 1650.00,
+                        "description": "3-bedroom house with garden",
+                        "available_from": "2024-05-16",
+                        "image_url": "https://a0.muscache.com/im/pictures/49997406/a515e97c_original.jpg?im_w=720"
+                      },
+                      {
+                        "id": "019",
+                        "address": "222 Pine Street",
+                        "city": "Laketown",
+                        "state": "MN",
+                        "zipcode": "56789",
+                        "rent_amount": 1400.00,
+                        "description": "2-bedroom apartment near lake",
+                        "available_from": "2024-05-19",
+                        "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-663762672993061829/original/cd73e789-209e-4c04-8358-f2edad241827.jpeg?im_w=720"
+                      },
+                      {
+                        "id": "020",
+                        "address": "333 Cedar Avenue",
+                        "city": "Mountainview",
+                        "state": "WA",
+                        "zipcode": "67890",
+                        "rent_amount": 1550.00,
+                        "description": "3-bedroom house with mountain view",
+                        "available_from": "2024-05-21",
+                        "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-620873457991334487/original/8be0241d-9683-4e69-a191-16ad8f5bdb37.jpeg?im_w=720"
+                      }
+                    ]
+                  
+                  
   }
