@@ -75,7 +75,15 @@
         "lastName": "kumar",
         "email": "chandan@gmail.com",
         "password": "chandan"
-      }
+      },
+      {
+        "firstName": "renuka",
+        "lastName": "jagrawal",
+        "email": "admin@gmail.com",
+        "password": "admin",
+        "id": "kvyjMcH"
+        }
+      
     ],
     "properties":
     [
